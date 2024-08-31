@@ -1,0 +1,271 @@
+[
+	{
+		"name": "Rise of the Valkyrie",
+		"date": "September 2004",
+		"type": "Master Set",
+		"alternate": "Master Set 1",
+		"packs": []
+	},
+	{
+		"name": "The Conflict Begins",
+		"date": "July 2007",
+		"type": "Master Set",
+		"alternate": "Marvel Heroscape",
+		"packs": []
+	},
+	{
+		"name": "Swarm of the Marro",
+		"date": "August 2007",
+		"type": "Master Set",
+		"alternate": "Master Set 2",
+		"packs": []
+	},
+	{
+		"name": "Battle for the Underdark",
+		"date": "December 2009",
+		"type": "Master Set",
+		"alternate": "Master Set 3",
+		"packs": []
+	},
+	{
+		"name": "Mallidon's Prophecy",
+		"date": "December 2004",
+		"type": "Wave",
+		"alternate": "Wave 1",
+		"packs": [
+			"Heroes of Bleakwoode",
+			"Grut Orcs",
+			"Roman Legion",
+			"Snipers and Vipers"
+		]
+	},
+	{
+		"name": "Utgar's Rage",
+		"date": "June 2005",
+		"type": "Wave",
+		"alternate": "Wave 2",
+		"packs": [
+			"Heroes of Barrenspur",
+			"Knights and Swog Rider",
+			"Drones and Minions",
+			"Minute Men and Wolves"
+		]
+	},
+	{
+		"name": "Jandar's Oath",
+		"date": "October 2005",
+		"type": "Wave",
+		"alternate": "Wave 3",
+		"packs": [
+			"Heroes of Nastralund",
+			"Gorillas and Hounds",
+			"Kilts and Commandos",
+			"Monks and Guards"
+		]
+	},
+	{
+		"name": "Zanafor's Discovery",
+		"date": "February 2006",
+		"type": "Wave",
+		"alternate": "Wave 4",
+		"packs": [
+			"Heroes of Trollsford",
+			"Greeks and Vipers",
+			"Lawmen and Samurai",
+			"Soulborgs and Elves"
+		]
+	},
+	{
+		"name": "Thora's Vengeance",
+		"date": "August 2006",
+		"type": "Wave",
+		"alternate": "Wave 5",
+		"packs": [
+			"Warriors and Soulborgs",
+			"Ninjas and Samurai",
+			"Gladiators and Agents",
+			"Soulborgs"
+		]
+	},
+	{
+		"name": "Dawn of Darkness",
+		"date": "December 2006",
+		"type": "Wave",
+		"alternate": "Wave 6",
+		"packs": [
+			"Heroes of Durgeth",
+			"Archers and Kyrie",
+			"Shades and Orcs",
+			"Zombie Horde"
+		]
+	},
+	{
+		"name": "Fields of Valor",
+		"date": "July 2007",
+		"type": "Wave",
+		"alternate": "Wave 7",
+		"packs": [
+			"Heroes of Elswin",
+			"Spearmen and Riflemen",
+			"Fiends and Vampires",
+			"Knights Templar"
+		]
+	},
+	{
+		"name": "Defenders of Kinsland",
+		"date": "June 2008",
+		"type": "Wave",
+		"alternate": "Wave 8",
+		"packs": [
+			"Heroes of The Molten Sea",
+			"Militia and Wolves",
+			"Marro Calvary",
+			"Elves"
+		]
+	},
+	{
+		"name": "Blackmoon's Siege",
+		"date": "June 2009",
+		"type": "Wave",
+		"alternate": "Wave 9",
+		"packs": [
+			"Heroes of the Moon",
+			"Dividers and Defenders",
+			"Dwarves and Repulsors",
+			"Braves and Brawlers"
+		]
+	},
+	{
+		"name": "Valkrill's Gambit",
+		"date": "November 2009",
+		"type": "Wave",
+		"alternate": "Wave 10",
+		"packs": [
+			"Champions of Renown",
+			"Warriors of Feldspar"
+		]
+	},
+	{
+		"name": "Champions of the Forgotten Realms",
+		"date": "March 2010",
+		"type": "Wave",
+		"alternate": "D1",
+		"packs": [
+			"Heroes of Faerun",
+			"Warriors of the Ghostlight Fen",
+			"Fury of the Primordials",
+			"Glaun Bog Raiders"
+		]
+	},
+	{
+		"name": "Warriors of Eberron",
+		"date": "August 2010",
+		"type": "Wave",
+		"alternate": "D2",
+		"packs": [
+			"Heroes of Khorvaire",
+			"Veterens of the Last War",
+			"Ogre and Goblines",
+			"Golem and Wyrmlings"
+		]
+	},
+	{
+		"name": "Moltenclaw's Invasion",
+		"date": "November 2010",
+		"type": "Wave",
+		"alternate": "D3",
+		"packs": [
+			"Heroes of the Fallcrest",
+			"Advocates of Annihilation",
+			"Bugbears and Orcs",
+			"Icewind Scourge"
+		]
+	},
+	{
+		"name": "Orm's Return",
+		"date": "September 2005",
+		"type": "Large Figure",
+		"alternate": "",
+		"packs": [
+			"Heroes of Laur"
+		]
+	},
+	{
+		"name": "Raknar's Vision",
+		"date": "June 2006",
+		"type": "Large Figure",
+		"alternate": "",
+		"packs": [
+			"Heroes of Lindesfarme"
+		]
+	},
+	{
+		"name": "Aquilla's Alliance",
+		"date": "June 2008",
+		"type": "Large Figure",
+		"alternate": "",
+		"packs": [
+			"Heroes of Quagmire"
+		]
+	},
+	{
+		"name": "Road to the Forgotten Forest",
+		"date": "September 2005",
+		"type": "Terrain",
+		"alternate": "",
+		"packs": []
+	},
+	{
+		"name": "Volcarren Wasteland and Guards",
+		"date": "September 2005",
+		"type": "Terrain",
+		"alternate": "",
+		"packs": []
+	},
+	{
+		"name": "Thaelenk Tundra",
+		"date": "June 2006",
+		"type": "Terrain",
+		"alternate": "",
+		"packs": []
+	},
+	{
+		"name": "Fortress of the Archkyrie",
+		"date": "August 2006",
+		"type": "Terrain",
+		"alternate": "",
+		"packs": []
+	},
+	{
+		"name": "Ticalla Jungle",
+		"date": "June 2006",
+		"type": "Terrain",
+		"alternate": "",
+		"packs": []
+	},
+	{
+		"name": "Flag Bearers",
+		"date": "October 2006",
+		"type": "Flags",
+		"alternate": "",
+		"packs": [
+			"Vydar's Flagbearer",
+			"Ullar's Flagbearer",
+			"Einar's Flagbearer",
+			"Jandar's Flagbearer",
+			"Utgar's Flagbearer"
+		]
+	},
+	{
+		"name": "Promotional",
+		"date": "",
+		"type": "Promotional",
+		"alternate": "",
+		"packs": [
+			"Nerak the Glacian Swog Rider",
+			"Sir Hawthorne",
+			"Master Win Chiu Woo",
+			"Agent Skahen"
+		]
+	}
+]
