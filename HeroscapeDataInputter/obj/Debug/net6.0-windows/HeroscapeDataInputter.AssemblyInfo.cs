@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HeroscapeDataInputter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9519bc90ad8fad07f1c1165afe8284c0a1b28b39")]
 [assembly: System.Reflection.AssemblyProductAttribute("HeroscapeDataInputter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HeroscapeDataInputter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

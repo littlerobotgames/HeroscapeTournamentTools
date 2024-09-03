@@ -260,7 +260,7 @@ namespace HeroscapeDataInputter
 
                 tempAb.Location = new Point(
                     tempAb.Location.X,
-                    tempAb.Location.Y + (a * 250));
+                    tempAb.Location.Y + (a * 150));
 
                 panel_ability_cards.Controls.Add(tempAb);
             }

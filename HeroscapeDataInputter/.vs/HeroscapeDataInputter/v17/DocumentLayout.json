@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeDataInputter\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C11ECFDB-DFF0-4E2F-AF21-7E73A4C6B6E3}|HeroscapeDataInputter.csproj|c:\\users\\user\\onedrive\\documents\\heroscapetournamenttools\\heroscapedatainputter\\formmain .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C11ECFDB-DFF0-4E2F-AF21-7E73A4C6B6E3}|HeroscapeDataInputter.csproj|solutionrelative:formmain .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C11ECFDB-DFF0-4E2F-AF21-7E73A4C6B6E3}|HeroscapeDataInputter.csproj|C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeDataInputter\\abilitycard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C11ECFDB-DFF0-4E2F-AF21-7E73A4C6B6E3}|HeroscapeDataInputter.csproj|solutionrelative:abilitycard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C11ECFDB-DFF0-4E2F-AF21-7E73A4C6B6E3}|HeroscapeDataInputter.csproj|c:\\users\\user\\onedrive\\documents\\heroscapetournamenttools\\heroscapedatainputter\\abilitycard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C11ECFDB-DFF0-4E2F-AF21-7E73A4C6B6E3}|HeroscapeDataInputter.csproj|solutionrelative:abilitycard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C11ECFDB-DFF0-4E2F-AF21-7E73A4C6B6E3}|HeroscapeDataInputter.csproj|C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeDataInputter\\formmain .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C11ECFDB-DFF0-4E2F-AF21-7E73A4C6B6E3}|HeroscapeDataInputter.csproj|solutionrelative:formmain .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C11ECFDB-DFF0-4E2F-AF21-7E73A4C6B6E3}|HeroscapeDataInputter.csproj|c:\\users\\user\\onedrive\\documents\\heroscapetournamenttools\\heroscapedatainputter\\formmain .designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C11ECFDB-DFF0-4E2F-AF21-7E73A4C6B6E3}|HeroscapeDataInputter.csproj|solutionrelative:formmain .designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormMain .Designer.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeDataInputter\\FormMain .Designer.cs",
+              "RelativeDocumentMoniker": "FormMain .Designer.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeDataInputter\\FormMain .Designer.cs",
+              "RelativeToolTip": "FormMain .Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T22:09:05.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormMain .cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeDataInputter\\FormMain .cs",
+              "RelativeDocumentMoniker": "FormMain .cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeDataInputter\\FormMain .cs",
+              "RelativeToolTip": "FormMain .cs",
+              "ViewState": "AgIAAPAAAAAAAAAAAAAAwAYBAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T22:09:05.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AbilityCard.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeDataInputter\\AbilityCard.cs",
+              "RelativeDocumentMoniker": "AbilityCard.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeDataInputter\\AbilityCard.cs",
+              "RelativeToolTip": "AbilityCard.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAswDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T22:09:05.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormMain .cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeDataInputter\\FormMain .cs",
+              "RelativeDocumentMoniker": "FormMain .cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeDataInputter\\FormMain .cs [Design]",
+              "RelativeToolTip": "FormMain .cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T22:09:05.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AbilityCard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeDataInputter\\AbilityCard.cs",
+              "RelativeDocumentMoniker": "AbilityCard.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeDataInputter\\AbilityCard.cs [Design]",
+              "RelativeToolTip": "AbilityCard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T22:09:05.332Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
