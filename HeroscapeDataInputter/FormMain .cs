@@ -19,6 +19,7 @@ namespace HeroscapeDataInputter
         }
         public class Card
         {
+            public int id { get; set; }
             public string name { get; set; }
             public string general { get; set; }
             public string rarity { get; set; }
@@ -245,8 +246,6 @@ namespace HeroscapeDataInputter
         }
         public void MakeAbilityCards()
         {
-            Console.WriteLine("[] Make Ability Cards []");
-
             panel_ability_cards.Controls.Clear();
 
             for (int a = 0; a < CurrentCard.abilities.Count; a++)
@@ -260,7 +259,7 @@ namespace HeroscapeDataInputter
 
                 tempAb.Location = new Point(
                     tempAb.Location.X,
-                    tempAb.Location.Y + (a * 150));
+                    tempAb.Location.Y + (a * 300));
 
                 panel_ability_cards.Controls.Add(tempAb);
             }

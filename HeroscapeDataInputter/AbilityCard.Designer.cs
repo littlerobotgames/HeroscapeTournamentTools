@@ -28,97 +28,98 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox_name = new TextBox();
-            label1 = new Label();
-            label2 = new Label();
-            textBox_description = new TextBox();
-            button_x = new Button();
-            labelNumber = new Label();
-            SuspendLayout();
+            this.textBox_name = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBox_description = new System.Windows.Forms.TextBox();
+            this.button_x = new System.Windows.Forms.Button();
+            this.labelNumber = new System.Windows.Forms.Label();
+            this.SuspendLayout();
             // 
             // textBox_name
             // 
-            textBox_name.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox_name.Location = new Point(19, 23);
-            textBox_name.Margin = new Padding(2, 1, 2, 1);
-            textBox_name.Name = "textBox_name";
-            textBox_name.Size = new Size(275, 23);
-            textBox_name.TabIndex = 0;
-            textBox_name.TextChanged += textBox_ab_name_changed;
+            this.textBox_name.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox_name.Location = new System.Drawing.Point(35, 49);
+            this.textBox_name.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.textBox_name.Name = "textBox_name";
+            this.textBox_name.Size = new System.Drawing.Size(507, 39);
+            this.textBox_name.TabIndex = 0;
+            this.textBox_name.TextChanged += new System.EventHandler(this.textBox_ab_name_changed);
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(19, 7);
-            label1.Margin = new Padding(2, 0, 2, 0);
-            label1.Name = "label1";
-            label1.Size = new Size(39, 15);
-            label1.TabIndex = 1;
-            label1.Text = "Name";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(35, 15);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(78, 32);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Name";
             // 
             // label2
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(2, 47);
-            label2.Margin = new Padding(2, 0, 2, 0);
-            label2.Name = "label2";
-            label2.Size = new Size(67, 15);
-            label2.TabIndex = 2;
-            label2.Text = "Description";
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(4, 100);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(135, 32);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Description";
             // 
             // textBox_description
             // 
-            textBox_description.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox_description.Location = new Point(2, 63);
-            textBox_description.Margin = new Padding(2, 1, 2, 1);
-            textBox_description.Multiline = true;
-            textBox_description.Name = "textBox_description";
-            textBox_description.ScrollBars = ScrollBars.Vertical;
-            textBox_description.Size = new Size(292, 72);
-            textBox_description.TabIndex = 3;
-            textBox_description.TextChanged += textBox_ab_desc_changed;
+            this.textBox_description.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox_description.Location = new System.Drawing.Point(4, 134);
+            this.textBox_description.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.textBox_description.Multiline = true;
+            this.textBox_description.Name = "textBox_description";
+            this.textBox_description.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBox_description.Size = new System.Drawing.Size(539, 149);
+            this.textBox_description.TabIndex = 3;
+            this.textBox_description.TextChanged += new System.EventHandler(this.textBox_ab_desc_changed);
             // 
             // button_x
             // 
-            button_x.BackColor = Color.Transparent;
-            button_x.Location = new Point(269, 0);
-            button_x.Margin = new Padding(2, 1, 2, 1);
-            button_x.Name = "button_x";
-            button_x.Size = new Size(25, 22);
-            button_x.TabIndex = 4;
-            button_x.Text = "X";
-            button_x.UseVisualStyleBackColor = false;
-            button_x.Click += button_x_clicked;
+            this.button_x.BackColor = System.Drawing.Color.Transparent;
+            this.button_x.Location = new System.Drawing.Point(500, 0);
+            this.button_x.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.button_x.Name = "button_x";
+            this.button_x.Size = new System.Drawing.Size(46, 47);
+            this.button_x.TabIndex = 4;
+            this.button_x.Text = "X";
+            this.button_x.UseVisualStyleBackColor = false;
+            this.button_x.Click += new System.EventHandler(this.button_x_clicked);
             // 
             // labelNumber
             // 
-            labelNumber.AutoSize = true;
-            labelNumber.ForeColor = Color.Silver;
-            labelNumber.Location = new Point(2, 7);
-            labelNumber.Margin = new Padding(2, 0, 2, 0);
-            labelNumber.Name = "labelNumber";
-            labelNumber.Size = new Size(13, 15);
-            labelNumber.TabIndex = 5;
-            labelNumber.Text = "0";
+            this.labelNumber.AutoSize = true;
+            this.labelNumber.ForeColor = System.Drawing.Color.Silver;
+            this.labelNumber.Location = new System.Drawing.Point(4, 15);
+            this.labelNumber.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelNumber.Name = "labelNumber";
+            this.labelNumber.Size = new System.Drawing.Size(27, 32);
+            this.labelNumber.TabIndex = 5;
+            this.labelNumber.Text = "0";
             // 
             // AbilityCard
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.WhiteSmoke;
-            Controls.Add(labelNumber);
-            Controls.Add(button_x);
-            Controls.Add(textBox_description);
-            Controls.Add(label2);
-            Controls.Add(label1);
-            Controls.Add(textBox_name);
-            Margin = new Padding(2, 1, 2, 1);
-            Name = "AbilityCard";
-            Size = new Size(296, 140);
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.Controls.Add(this.labelNumber);
+            this.Controls.Add(this.button_x);
+            this.Controls.Add(this.textBox_description);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.textBox_name);
+            this.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.Name = "AbilityCard";
+            this.Size = new System.Drawing.Size(550, 299);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion

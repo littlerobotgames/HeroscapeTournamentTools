@@ -1,0 +1,7 @@
+C:\Users\alex\OneDrive\Documents\HeroscapeTournamentTools\HeroscapeTournamentServer\obj\Debug\net6.0\HeroscapeTournamentServer.csproj.AssemblyReference.cache
+C:\Users\alex\OneDrive\Documents\HeroscapeTournamentTools\HeroscapeTournamentServer\obj\Debug\net6.0\HeroscapeTournamentServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alex\OneDrive\Documents\HeroscapeTournamentTools\HeroscapeTournamentServer\obj\Debug\net6.0\HeroscapeTournamentServer.AssemblyInfoInputs.cache
+C:\Users\alex\OneDrive\Documents\HeroscapeTournamentTools\HeroscapeTournamentServer\obj\Debug\net6.0\HeroscapeTournamentServer.AssemblyInfo.cs
+C:\Users\alex\OneDrive\Documents\HeroscapeTournamentTools\HeroscapeTournamentServer\obj\Debug\net6.0\HeroscapeTournamentServer.csproj.CoreCompileInputs.cache
+C:\Users\alex\OneDrive\Documents\HeroscapeTournamentTools\HeroscapeTournamentServer\obj\Debug\net6.0\HeroscapeTournamentServer.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\alex\OneDrive\Documents\HeroscapeTournamentTools\HeroscapeTournamentServer\obj\Debug\net6.0\HeroscapeTournamentServer.MvcApplicationPartsAssemblyInfo.cache
