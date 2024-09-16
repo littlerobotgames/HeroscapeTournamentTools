@@ -1,0 +1,18 @@
+C:\Users\alex\OneDrive\Documents\HeroscapeTournamentTools\Heroscape Collection Maker\obj\Debug\net6.0-windows\Heroscape Collection Maker.csproj.AssemblyReference.cache
+C:\Users\alex\OneDrive\Documents\HeroscapeTournamentTools\Heroscape Collection Maker\obj\Debug\net6.0-windows\Heroscape_Collection_Maker.Form1.resources
+C:\Users\alex\OneDrive\Documents\HeroscapeTournamentTools\Heroscape Collection Maker\obj\Debug\net6.0-windows\Heroscape_Collection_Maker.UserControls.FigureEditor.resources
+C:\Users\alex\OneDrive\Documents\HeroscapeTournamentTools\Heroscape Collection Maker\obj\Debug\net6.0-windows\Heroscape Collection Maker.csproj.GenerateResource.cache
+C:\Users\alex\OneDrive\Documents\HeroscapeTournamentTools\Heroscape Collection Maker\obj\Debug\net6.0-windows\Heroscape Collection Maker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alex\OneDrive\Documents\HeroscapeTournamentTools\Heroscape Collection Maker\obj\Debug\net6.0-windows\Heroscape Collection Maker.AssemblyInfoInputs.cache
+C:\Users\alex\OneDrive\Documents\HeroscapeTournamentTools\Heroscape Collection Maker\obj\Debug\net6.0-windows\Heroscape Collection Maker.AssemblyInfo.cs
+C:\Users\alex\OneDrive\Documents\HeroscapeTournamentTools\Heroscape Collection Maker\obj\Debug\net6.0-windows\Heroscape Collection Maker.csproj.CoreCompileInputs.cache
+C:\Users\alex\OneDrive\Documents\HeroscapeTournamentTools\Heroscape Collection Maker\bin\Debug\net6.0-windows\Heroscape Collection Maker.exe
+C:\Users\alex\OneDrive\Documents\HeroscapeTournamentTools\Heroscape Collection Maker\bin\Debug\net6.0-windows\Heroscape Collection Maker.deps.json
+C:\Users\alex\OneDrive\Documents\HeroscapeTournamentTools\Heroscape Collection Maker\bin\Debug\net6.0-windows\Heroscape Collection Maker.runtimeconfig.json
+C:\Users\alex\OneDrive\Documents\HeroscapeTournamentTools\Heroscape Collection Maker\bin\Debug\net6.0-windows\Heroscape Collection Maker.dll
+C:\Users\alex\OneDrive\Documents\HeroscapeTournamentTools\Heroscape Collection Maker\bin\Debug\net6.0-windows\Heroscape Collection Maker.pdb
+C:\Users\alex\OneDrive\Documents\HeroscapeTournamentTools\Heroscape Collection Maker\obj\Debug\net6.0-windows\Heroscape Collection Maker.dll
+C:\Users\alex\OneDrive\Documents\HeroscapeTournamentTools\Heroscape Collection Maker\obj\Debug\net6.0-windows\refint\Heroscape Collection Maker.dll
+C:\Users\alex\OneDrive\Documents\HeroscapeTournamentTools\Heroscape Collection Maker\obj\Debug\net6.0-windows\Heroscape Collection Maker.pdb
+C:\Users\alex\OneDrive\Documents\HeroscapeTournamentTools\Heroscape Collection Maker\obj\Debug\net6.0-windows\Heroscape Collection Maker.genruntimeconfig.cache
+C:\Users\alex\OneDrive\Documents\HeroscapeTournamentTools\Heroscape Collection Maker\obj\Debug\net6.0-windows\ref\Heroscape Collection Maker.dll

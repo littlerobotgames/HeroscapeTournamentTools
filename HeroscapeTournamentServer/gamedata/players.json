@@ -1,0 +1,15 @@
+[
+	{
+		"id": 0,
+		"firstname": "Alex",
+		"lastname": "Gardner",
+		"email": "alex@dashingfrog.com",
+		"password": "password",
+		"medals_gold": 0,
+		"medals_silver": 0,
+		"medals_bronze": 2,
+		"armies": [
+			0
+		]
+	}
+]

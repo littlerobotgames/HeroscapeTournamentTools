@@ -1,0 +1,21 @@
+[
+	{
+		"id": 0,
+		"name": "Army of the Dead",
+		"playerId": 0,
+		"ArmyEntries": [
+			{
+				"cardId": 217,
+				"amount": 5
+			},
+			{
+				"cardId": 33,
+				"amount": 1
+			},
+			{
+				"cardId": 179,
+				"amount": 1
+			}
+		]
+	}
+]

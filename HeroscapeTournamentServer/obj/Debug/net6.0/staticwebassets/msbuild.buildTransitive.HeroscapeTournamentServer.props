@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\HeroscapeTournamentServer.props" />
+</Project>
