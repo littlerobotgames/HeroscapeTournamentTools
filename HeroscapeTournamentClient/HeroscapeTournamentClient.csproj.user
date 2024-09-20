@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Buttons\AbilityDisplay.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Buttons\CardIcon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Buttons\CardIconPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Buttons\CurrentCardPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Buttons\CurrentCardPanelSmall.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Buttons\TournamentCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Buttons\TournamentDetailPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Buttons\TourneyList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Buttons\ButtonMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Pages\Page_Battle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Pages\Page_Browse.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Pages\Page_Build.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Pages\Page_Login.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Pages\Page_Main.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Pages\Page_Signup.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

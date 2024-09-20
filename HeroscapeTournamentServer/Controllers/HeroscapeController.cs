@@ -46,9 +46,10 @@ namespace HeroscapeTournamentServer.Controllers
             }
         }
         [HttpGet("GetStatus")]
-        public int GetStatus()
+        public IActionResult GetStatus()
         {
-            return 0;
+            Console.WriteLine("Got a status ping");
+            return Ok();
         }
         [HttpGet("GetCardDatabase")]
         public IEnumerable<Card> GetCardDatabase()
@@ -98,8 +99,9 @@ namespace HeroscapeTournamentServer.Controllers
             return GetTournamentReserved(_tournamentId);
         }
         [HttpGet("PlayerLogin")]
-        public PlayerPublic PlayerLogin(string _email, string _password)
+        public PlayerPublic PlayerLogin([FromHeader] string _email, [FromHeader] string _password)
         {
+            Console.WriteLine("Got a login request");
             foreach(Player p in players)
             {
                 if (p.email == _email)
