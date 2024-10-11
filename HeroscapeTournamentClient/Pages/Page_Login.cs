@@ -30,11 +30,16 @@ namespace HeroscapeTournamentClient.Pages
 
             if (response != null)
             {
-                MainForm.myPlayer = response;
-                MainForm.ChangePage(Globals.PageLabel.PageMain);
+                FormMain.myPlayer = response;
+                FormMain.ChangePage(Globals.PageLabel.PageMain);
 
                 Debug.WriteLine($"Got information for player {response.firstname} {response.lastname}");
             }
+        }
+
+        private void buttonSignup_Click(object sender, EventArgs e)
+        {
+            FormMain.ChangePage(Classes.Globals.PageLabel.PageSignup);
         }
     }
 }

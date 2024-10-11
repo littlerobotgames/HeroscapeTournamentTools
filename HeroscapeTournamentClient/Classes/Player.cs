@@ -9,5 +9,6 @@
         public int medals_silver { get; set; } = 0;
         public int medals_bronze { get; set; } = 0;
         public int[] armies { get; set; } = new int[0];
+        public int accountType { get; set; } = 0;
     }
 }

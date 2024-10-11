@@ -96,6 +96,7 @@
             this.buttonSignup.TabIndex = 3;
             this.buttonSignup.Text = "Create Account";
             this.buttonSignup.UseVisualStyleBackColor = true;
+            this.buttonSignup.Click += new System.EventHandler(this.buttonSignup_Click);
             // 
             // labelLogin
             // 

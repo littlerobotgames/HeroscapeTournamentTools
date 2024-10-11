@@ -275,9 +275,9 @@
             // 
             // panelAbilities
             // 
-            this.panelAbilities.Location = new System.Drawing.Point(177, 20);
+            this.panelAbilities.Location = new System.Drawing.Point(177, 49);
             this.panelAbilities.Name = "panelAbilities";
-            this.panelAbilities.Size = new System.Drawing.Size(654, 558);
+            this.panelAbilities.Size = new System.Drawing.Size(654, 529);
             this.panelAbilities.TabIndex = 22;
             // 
             // CurrentCardPanelSmall

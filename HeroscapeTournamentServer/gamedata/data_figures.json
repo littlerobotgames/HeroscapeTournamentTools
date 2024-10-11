@@ -1158,9 +1158,9 @@
 		"personality": "Precise",
 		"size": "Medium",
 		"height": 5,
-		"life": 1,
+		"life": 3,
 		"move": 5,
-		"range": 1,
+		"range": 10,
 		"attack": 1,
 		"defense": 2,
 		"points": 60,
@@ -1584,8 +1584,8 @@
 		"hex_per": 2,
 		"abilities": [
 			{
-				"name": "New Name",
-				"description": "New Description"
+				"name": "Crippling Gaze 15",
+				"description": "Before moving, you may choose a figure within 5 clear sight spaces of Dund. Roll the 20-sided die. If you roll a 15 or higher remove all order markers on the chosen figure's army card (or cards if your opponent has more than one common card for that figure)."
 			}
 		],
 		"wave": "Orm's Return",

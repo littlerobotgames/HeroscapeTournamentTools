@@ -23,7 +23,7 @@ namespace HeroscapeTournamentClient.Pages
 
         private void PageMain_VisibleChanged(object sender, EventArgs e)
         {
-            labelUsername.Text = $"{MainForm.myPlayer.firstname} {MainForm.myPlayer.lastname}";
+            labelUsername.Text = $"{FormMain.myPlayer.firstname} {FormMain.myPlayer.lastname}";
 
             //Configure menu buttons
 
@@ -41,7 +41,7 @@ namespace HeroscapeTournamentClient.Pages
             buttonMenu_Build.labelDescription.Text = "Build an army, either for fun or a specific tournament";
             buttonMenu_Build.labelDescription.ForeColor = Color.White;
             buttonMenu_Build.BackColor = Color.DarkGreen;
-            buttonMenu_Build.toPage = Globals.PageLabel.PageBuild;
+            buttonMenu_Build.toPage = Globals.PageLabel.PageBuildMenu;
 
             //Browse
             buttonMenu_Browse.labelName.Text = "Browse";

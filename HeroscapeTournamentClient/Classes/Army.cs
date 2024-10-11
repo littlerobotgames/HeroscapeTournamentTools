@@ -2,8 +2,8 @@
 {
     public class Army
     {
-        public int id { get; set; }
-        public string name { get; set; } = "";
+        public int id { get; set; } = -1;
+        public string name { get; set; } = "New Army";
         public int playerId { get; set; } = 0;
         public List<ArmyEntry> ArmyEntries { get; set;} = new List<ArmyEntry>();
 

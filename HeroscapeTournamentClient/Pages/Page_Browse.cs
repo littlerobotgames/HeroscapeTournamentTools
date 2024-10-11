@@ -22,5 +22,10 @@ namespace HeroscapeTournamentClient.Pages
             cardIconPanel1.showPanel = currentCardPanel1;
             currentCardPanel1.Visible = false;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FormMain.ChangePage(Classes.Globals.PageLabel.PageMain);
+        }
     }
 }

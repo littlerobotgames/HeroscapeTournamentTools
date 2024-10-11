@@ -46,7 +46,7 @@
             // 
             this.labelDescription.AutoSize = true;
             this.labelDescription.Font = new System.Drawing.Font("HelveticaNeue MediumCond", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelDescription.Location = new System.Drawing.Point(3, 47);
+            this.labelDescription.Location = new System.Drawing.Point(3, 37);
             this.labelDescription.MaximumSize = new System.Drawing.Size(450, 0);
             this.labelDescription.Name = "labelDescription";
             this.labelDescription.Size = new System.Drawing.Size(105, 25);

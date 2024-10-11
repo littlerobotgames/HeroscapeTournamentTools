@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HeroscapeTournamentClient.Buttons;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,7 +15,9 @@ namespace HeroscapeTournamentClient.Classes
             PageMain = 2,
             PageBrowse = 3,
             PageBuild = 4,
-            PageBattle = 5
+            PageBattle = 5,
+            PageBuildMenu = 6,
+            PageBattleArmy = 7
         }
         public static string[] MonthNames =
         {
@@ -38,5 +41,41 @@ namespace HeroscapeTournamentClient.Classes
             "Heroes Only Singles",
             "Standard Doubles"
         };
+        public static Color GetGeneralColorBase(string _general)
+        {
+            switch (_general)
+            {
+                case "Jandar":
+                    return Color.LightBlue;
+                case "Ullar":
+                    return Color.LightGreen;
+                case "Vydar":
+                    return Color.LightGray;
+                case "Einar":
+                    return Color.Tan;
+                case "Utgar":
+                    return Color.PaleVioletRed;
+                case "Aquilla":
+                    return Color.DarkBlue;
+                case "Valkrill":
+                    return Color.Yellow;
+                case "Marvel":
+                    return Color.Purple;
+                default:
+                    return Color.Gray;
+            }
+        }
+        public static Color GetGeneralColorAccent(string _general)
+        {
+            switch (_general)
+            {
+                case "Aquilla":
+                    return Color.White;
+                case "Marvel":
+                    return Color.White;
+                default:
+                    return Color.Black;
+            }
+        }
     }
 }

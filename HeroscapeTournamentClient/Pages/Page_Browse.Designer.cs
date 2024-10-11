@@ -30,6 +30,7 @@
         {
             this.cardIconPanel1 = new HeroscapeTournamentClient.Buttons.CardIconPanel();
             this.currentCardPanel1 = new HeroscapeTournamentClient.Buttons.CurrentCardPanel();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // cardIconPanel1
@@ -38,7 +39,7 @@
             this.cardIconPanel1.AutoScroll = true;
             this.cardIconPanel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.cardIconPanel1.isBrowse = true;
-            this.cardIconPanel1.Location = new System.Drawing.Point(910, 35);
+            this.cardIconPanel1.Location = new System.Drawing.Point(908, 25);
             this.cardIconPanel1.Name = "cardIconPanel1";
             this.cardIconPanel1.Padding = new System.Windows.Forms.Padding(50);
             this.cardIconPanel1.Size = new System.Drawing.Size(950, 1000);
@@ -47,15 +48,27 @@
             // currentCardPanel1
             // 
             this.currentCardPanel1.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.currentCardPanel1.Location = new System.Drawing.Point(22, 35);
+            this.currentCardPanel1.Location = new System.Drawing.Point(25, 77);
             this.currentCardPanel1.Name = "currentCardPanel1";
-            this.currentCardPanel1.Size = new System.Drawing.Size(850, 1000);
+            this.currentCardPanel1.Size = new System.Drawing.Size(850, 950);
             this.currentCardPanel1.TabIndex = 1;
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("HelveticaNeue MediumCond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button1.Location = new System.Drawing.Point(25, 25);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(150, 46);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Back";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Page_Browse
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.currentCardPanel1);
             this.Controls.Add(this.cardIconPanel1);
             this.Name = "Page_Browse";
@@ -68,5 +81,6 @@
 
         private Buttons.CardIconPanel cardIconPanel1;
         private Buttons.CurrentCardPanel currentCardPanel1;
+        private Button button1;
     }
 }

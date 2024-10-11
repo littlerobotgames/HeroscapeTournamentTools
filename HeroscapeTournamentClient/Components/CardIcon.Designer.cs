@@ -31,6 +31,8 @@
             this.labelCardName = new System.Windows.Forms.Label();
             this.labelPoints = new System.Windows.Forms.Label();
             this.labelAmount = new System.Windows.Forms.Label();
+            this.buttonSubtract = new System.Windows.Forms.Button();
+            this.buttonAdd = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // labelCardName
@@ -64,11 +66,35 @@
             this.labelAmount.Text = "0/0";
             this.labelAmount.Click += new System.EventHandler(this.CardClicked);
             // 
+            // buttonSubtract
+            // 
+            this.buttonSubtract.Font = new System.Drawing.Font("HelveticaNeue MediumCond", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.buttonSubtract.Location = new System.Drawing.Point(3, 83);
+            this.buttonSubtract.Name = "buttonSubtract";
+            this.buttonSubtract.Size = new System.Drawing.Size(35, 35);
+            this.buttonSubtract.TabIndex = 3;
+            this.buttonSubtract.Text = "-";
+            this.buttonSubtract.UseVisualStyleBackColor = true;
+            this.buttonSubtract.Click += new System.EventHandler(this.buttonSubtract_Click);
+            // 
+            // buttonAdd
+            // 
+            this.buttonAdd.Font = new System.Drawing.Font("HelveticaNeue MediumCond", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.buttonAdd.Location = new System.Drawing.Point(142, 83);
+            this.buttonAdd.Name = "buttonAdd";
+            this.buttonAdd.Size = new System.Drawing.Size(35, 35);
+            this.buttonAdd.TabIndex = 4;
+            this.buttonAdd.Text = "+";
+            this.buttonAdd.UseVisualStyleBackColor = true;
+            this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
+            // 
             // CardIcon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
+            this.Controls.Add(this.buttonAdd);
+            this.Controls.Add(this.buttonSubtract);
             this.Controls.Add(this.labelAmount);
             this.Controls.Add(this.labelPoints);
             this.Controls.Add(this.labelCardName);
@@ -85,5 +111,7 @@
         public Label labelCardName;
         public Label labelPoints;
         public Label labelAmount;
+        public Button buttonSubtract;
+        public Button buttonAdd;
     }
 }

@@ -31,6 +31,7 @@
             this.labelName = new System.Windows.Forms.Label();
             this.labelParticipants = new System.Windows.Forms.Label();
             this.labelDate = new System.Windows.Forms.Label();
+            this.labelOrganizer = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // labelName
@@ -72,11 +73,23 @@
             this.labelDate.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.labelDate.Click += new System.EventHandler(this.CardClicked);
             // 
+            // labelOrganizer
+            // 
+            this.labelOrganizer.AutoSize = true;
+            this.labelOrganizer.Font = new System.Drawing.Font("HelveticaNeue MediumCond", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.labelOrganizer.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.labelOrganizer.Location = new System.Drawing.Point(24, 61);
+            this.labelOrganizer.Name = "labelOrganizer";
+            this.labelOrganizer.Size = new System.Drawing.Size(102, 28);
+            this.labelOrganizer.TabIndex = 3;
+            this.labelOrganizer.Text = "Organizer";
+            // 
             // TournamentCard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Maroon;
+            this.Controls.Add(this.labelOrganizer);
             this.Controls.Add(this.labelDate);
             this.Controls.Add(this.labelParticipants);
             this.Controls.Add(this.labelName);
@@ -94,5 +107,6 @@
         public Label labelName;
         public Label labelParticipants;
         public Label labelDate;
+        public Label labelOrganizer;
     }
 }

@@ -11,6 +11,7 @@
         public int medals_silver { get; set; } = 0;
         public int medals_bronze { get; set; } = 0;
         public int[] armies { get; set; } = new int[0];
+        public int accountType { get; set; } = 0;
     }
     public class PlayerPublic
     {
@@ -21,6 +22,7 @@
         public int medals_silver { get; set; } = 0;
         public int medals_bronze { get; set; } = 0;
         public int[] armies { get; set; } = new int[0];
+        public int accountType { get; set; } = 0;
 
         public PlayerPublic(Player p)
         {
@@ -31,6 +33,7 @@
             medals_silver = p.medals_silver;
             medals_bronze = p.medals_bronze;
             armies = p.armies;
+            accountType = p.accountType;
         }
     }
 }

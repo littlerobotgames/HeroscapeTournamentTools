@@ -25,7 +25,7 @@ namespace HeroscapeTournamentClient.Pages
 
         private void ButtonClicked(object sender, EventArgs e)
         {
-            mainpage.MainForm.ChangePage(toPage);
+            FormMain.ChangePage(toPage);
         }
     }
 }

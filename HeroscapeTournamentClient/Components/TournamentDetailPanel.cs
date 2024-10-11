@@ -12,6 +12,7 @@ namespace HeroscapeTournamentClient.Buttons
 {
     public partial class TournamentDetailPanel : UserControl
     {
+        public int tourneyID;
         public TournamentDetailPanel()
         {
             InitializeComponent();
