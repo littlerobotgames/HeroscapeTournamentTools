@@ -1584,8 +1584,8 @@
 		"hex_per": 2,
 		"abilities": [
 			{
-				"name": "New Name",
-				"description": "New Description"
+				"name": "Crippling Gaze 15",
+				"description": "Before moving, you may choose a figure within 5 clear sight spaces of Dund. Roll the 20-sided die. If you roll a 15 or higher remove all order markers on the chosen figure's army card (or cards if your opponent has more than one common card for that figure)."
 			}
 		],
 		"wave": "Orm's Return",
@@ -7078,5 +7078,934 @@
 		],
 		"wave": "Dawn of Darkness",
 		"pack": "Zombie Horde"
+	},
+	{
+		"id": 218,
+		"name": "Admiral EJ-1M",
+		"general": "Vydar",
+		"rarity": "Unique",
+		"type": "Hero",
+		"race": "Soulborg",
+		"unit_class": "Admiral",
+		"personality": "Menacing",
+		"size": "Large",
+		"height": 7,
+		"life": 3,
+		"move": 5,
+		"range": 1,
+		"attack": 4,
+		"defense": 6,
+		"points": 170,
+		"figures": 1,
+		"hex_per": 1,
+		"abilities": [
+			{
+				"name": "Admiral's Orders",
+				"description": "After rolling for Initiative, you may move any Order Markers from this card onto any of your Pirate or Captain Army Cards."
+			},
+			{
+				"name": "Boarding Party Special Attack",
+				"description": "Range 5. Attack 2 + Special.\r\nYou may attack up to 4 times with Boarding Party Special Attack. Roll one additional attack die when attacking a figure engaged with a Pirate or Captain you control. After each attack, if that was the first time you attacked the defending figure this turn, you may move one Pirate or Captain figure you control up to 4 spaces. You may not move the same figure more than once in a turn using Boarding Party Special Attack."
+			}
+		],
+		"wave": "Age of Annihilation",
+		"pack": ""
+	},
+	{
+		"id": 219,
+		"name": "Dorim the Bulkhead Brawler",
+		"general": "Aquilla",
+		"rarity": "Unique",
+		"type": "Hero",
+		"race": "Dwarf",
+		"unit_class": "Pirate",
+		"personality": "Fearless",
+		"size": "Small",
+		"height": 4,
+		"life": 5,
+		"move": 5,
+		"range": 1,
+		"attack": 4,
+		"defense": 3,
+		"points": 100,
+		"figures": 1,
+		"hex_per": 1,
+		"abilities": [
+			{
+				"name": "Charge!!!",
+				"description": "If Dorim the Bulkhead Brawler attacks an opponent's figure during this turn, the Move Value of all your Army Cards is increased by 1 until the next time you reveal an Order Marker."
+			},
+			{
+				"name": "Chain Axe",
+				"description": "After rolling attack dice, before defense dice are rolled, you may re-roll one die that did not roll a skull."
+			}
+		],
+		"wave": "Age of Annihilation",
+		"pack": ""
+	},
+	{
+		"id": 220,
+		"name": "Exiles of the Sundered Sea",
+		"general": "Utgar",
+		"rarity": "Unique",
+		"type": "Squad",
+		"race": "Varied",
+		"unit_class": "Pirate",
+		"personality": "Tricky",
+		"size": "Medium",
+		"height": 5,
+		"life": 1,
+		"move": 5,
+		"range": 1,
+		"attack": 3,
+		"defense": 2,
+		"points": 75,
+		"figures": 4,
+		"hex_per": 1,
+		"abilities": [
+			{
+				"name": "Black Powder Pistols",
+				"description": "Start the game with 3 black Powder Markers on this card. After moving and before attacking, you may remove a Powder Marker from this card to add 4 to the Exiles of the Sundered Sea's Range Value for the rest of the turn. You may only use this Special Power once during a round."
+			},
+			{
+				"name": "Stealthy 13",
+				"description": "If an Exile of the Sundered Sea you control is attacked by an opponent's figure that is not adjacent and at least 1 skull is rolled, roll the 20-sided die. If you roll a 1-12, roll defense dice normally. If you roll a 13 or higher, that Exile takes no damage and may immediately move up to 3 spaces."
+			},
+			{
+				"name": "Disengage",
+				"description": "Exiles of the Sundered Sea are never attacked when leaving an engagement."
+			}
+		],
+		"wave": "Age of Annihilation",
+		"pack": ""
+	},
+	{
+		"id": 221,
+		"name": "Frostclaw Paladins",
+		"general": "Jandar",
+		"rarity": "Unique",
+		"type": "Squad",
+		"race": "Ursine",
+		"unit_class": "Knights",
+		"personality": "Dauntless",
+		"size": "Large",
+		"height": 6,
+		"life": 2,
+		"move": 3,
+		"range": 1,
+		"attack": 3,
+		"defense": 4,
+		"points": 120,
+		"figures": 4,
+		"hex_per": 1,
+		"abilities": [
+			{
+				"name": "Run 3",
+				"description": "Before moving a Frostclaw Paladin, you may add 3 to that figure's Move Value this turn. If you do, subtract 2 from that figure's Attack Value this turn."
+			},
+			{
+				"name": "Jandar Champion Bonding",
+				"description": "Before taking a turn with the Frostclaw Paladins, you may take a turn with a Champion you control who follows Jandar."
+			}
+		],
+		"wave": "Age of Annihilation",
+		"pack": ""
+	},
+	{
+		"id": 222,
+		"name": "Knaves of the Silver Scimitar",
+		"general": "Revna",
+		"rarity": "Unique",
+		"type": "Squad",
+		"race": "Varied",
+		"unit_class": "Pirates",
+		"personality": "Wild",
+		"size": "Medium",
+		"height": 4,
+		"life": 1,
+		"move": 5,
+		"range": 1,
+		"attack": 3,
+		"defense": 2,
+		"points": 65,
+		"figures": 4,
+		"hex_per": 1,
+		"abilities": [
+			{
+				"name": "The Captain's Way",
+				"description": "At the start of the game, choose a Unique Captain you control to be the Knaves of the Silver Scimitar's Captain for this game. Knaves of the Silver Scimitar roll one additional defense die against attacks from non-adjacent figures when their chosen Captain is within 4 clear sight spaces."
+			},
+			{
+				"name": "Captain's Orders",
+				"description": "Before taking a turn with the Knaves of the Silver Scimitar, you may first take a turn with their chosen Captain or a Pirate Hero you control."
+			},
+			{
+				"name": "First Assault 1",
+				"description": "When attacking with a Knave of the Silver Scimitar, if the defending figure was not adjacent to that Knave of the Silver Scimitar at the start of the turn that Knave of the Silver Scimitar receives 1 additional attack die."
+			},
+			{
+				"name": "Disengage",
+				"description": "Knaves of the Silver Scimitar are never attacked when leaving an engagement."
+			}
+		],
+		"wave": "Age of Annihilation",
+		"pack": ""
+	},
+	{
+		"id": 223,
+		"name": "Knight Irene",
+		"general": "Jandar",
+		"rarity": "Unique",
+		"type": "Hero",
+		"race": "Ursine",
+		"unit_class": "Champion",
+		"personality": "Valiant",
+		"size": "Large",
+		"height": 8,
+		"life": 5,
+		"move": 4,
+		"range": 1,
+		"attack": 4,
+		"defense": 4,
+		"points": 110,
+		"figures": 1,
+		"hex_per": 1,
+		"abilities": [
+			{
+				"name": "Run 3",
+				"description": "Before moving Knight Irene, you may add 3 to her Move Value this turn. If you do, subtract 2 from her Attack Value this turn."
+			},
+			{
+				"name": "Overwhelm Special Attack",
+				"description": "Range 1. Attack 3 + Special.\r\nYou may attack twice with Overwhelm Special Attack. If you attack the same figure a second time, you may roll an additional attack die for the second attack. You may not use Overwhelm Special Attack if you used the Run Special Power this turn."
+			}
+		],
+		"wave": "Age of Annihilation",
+		"pack": ""
+	},
+	{
+		"id": 224,
+		"name": "Loviatak the Kyrie Warrior",
+		"general": "Utgar",
+		"rarity": "Unique",
+		"type": "Hero",
+		"race": "Kyrie",
+		"unit_class": "Warrior",
+		"personality": "Relentless",
+		"size": "Medium",
+		"height": 5,
+		"life": 4,
+		"move": 5,
+		"range": 1,
+		"attack": 2,
+		"defense": 3,
+		"points": 80,
+		"figures": 1,
+		"hex_per": 1,
+		"abilities": [
+			{
+				"name": "Brutality Aura",
+				"description": "When a Squad figure you control within 4 clear sight spaces of Loviatak the Kyrie Warrior attacks an adjacent figure with a normal attack, before defense dice are rolled, you may re-roll all attack dice that did not show skulls. Brutality Aura may only be used once per turn."
+			},
+			{
+				"name": "Deadly Strike",
+				"description": "When attacking with Loviatak, all skulls rolled count for one additional hit."
+			},
+			{
+				"name": "Dynastic Leadership",
+				"description": "If you control Loviatak and another Unique Kyrie Hero who follows Utgar, figures you control who follow Utgar increase their Move Value by 1"
+			},
+			{
+				"name": "Flying",
+				"description": ""
+			}
+		],
+		"wave": "Age of Annihilation",
+		"pack": ""
+	},
+	{
+		"id": 225,
+		"name": "Misaerx the Kyrie Warrior",
+		"general": "Revna",
+		"rarity": "Unique",
+		"type": "Hero",
+		"race": "Kyrie",
+		"unit_class": "Warrior",
+		"personality": "Terrifying",
+		"size": "Medium",
+		"height": 5,
+		"life": 4,
+		"move": 6,
+		"range": 1,
+		"attack": 3,
+		"defense": 3,
+		"points": 50,
+		"figures": 1,
+		"hex_per": 1,
+		"abilities": [
+			{
+				"name": "Life Drain",
+				"description": "Each time this figure destroys a figure, you may remove a Wound Marker from this Army Card. This figure cannot Life Drain destructable objects."
+			},
+			{
+				"name": "Life Drain Spirit",
+				"description": "When Misaerx the Kyrie Warrior is destroyed, place this figure on the Army Card of a Unique Warrior Hero that follows Revna. That Hero now has Life Drain."
+			},
+			{
+				"name": "Flying",
+				"description": ""
+			}
+		],
+		"wave": "Age of Annihilation",
+		"pack": ""
+	},
+	{
+		"id": 226,
+		"name": "Raakchott, Steward of Death",
+		"general": "Revna",
+		"rarity": "Unique",
+		"type": "Hero",
+		"race": "Dryan",
+		"unit_class": "Wizard",
+		"personality": "Cruel",
+		"size": "Medium",
+		"height": 6,
+		"life": 5,
+		"move": 5,
+		"range": 1,
+		"attack": 3,
+		"defense": 4,
+		"points": 100,
+		"figures": 1,
+		"hex_per": 1,
+		"abilities": [
+			{
+				"name": "Command Familiar",
+				"description": "After revealing an Order Marker on Raakchott, Steward of Death, before taking Raakchott's turn, you may take a turn with a Small or Medium Beast you control."
+			},
+			{
+				"name": "Consume the Dead",
+				"description": "Start the game with 3 red Consume Markers. When a figure within 3 clear sight spaces of Raakchott is destroyed, place a Consume Marker on this Army Card. You cannot place more than one Consume Marker on this card each turn."
+			},
+			{
+				"name": "Soul Fury Special Attack",
+				"description": "Range 1. Attack 2 + Special.\r\nAll figures adjacent to Raakchott are affected by Soul Fury Special Attack. Add 1 to Raakchott's attack dice for each Consume Marker on this Army Card. Roll attack dice once for all affected figures. Each figure rolls defense dice separately. Do not place Consume Markers on this Army Card while using Soul Fury Special Attack. Remove one Consume Marker from this Army Card for each figure you attacked this turn."
+			}
+		],
+		"wave": "Age of Annihilation",
+		"pack": ""
+	},
+	{
+		"id": 227,
+		"name": "Raelin the Kyrie Warrior (AoA)",
+		"general": "Utgar",
+		"rarity": "Unique",
+		"type": "Hero",
+		"race": "Kyrie",
+		"unit_class": "Warrior",
+		"personality": "Relentless",
+		"size": "Large",
+		"height": 7,
+		"life": 6,
+		"move": 6,
+		"range": 1,
+		"attack": 3,
+		"defense": 3,
+		"points": 100,
+		"figures": 1,
+		"hex_per": 2,
+		"abilities": [
+			{
+				"name": "Terrifying Aura",
+				"description": "While opponent's figures are within 4 clear sight spaces of Raelin the Kyrie Warrior, they lower their Defense Value by 1."
+			},
+			{
+				"name": "Twist the Blade",
+				"description": "If Raelin inflicts at least 1 wound with a normal attack or leaving engagement attack, she inflicts 1 additional wound."
+			},
+			{
+				"name": "Flying",
+				"description": ""
+			}
+		],
+		"wave": "Age of Annihilation",
+		"pack": ""
+	},
+	{
+		"id": 228,
+		"name": "Xenithrax the Vineweaver",
+		"general": "Aquilla",
+		"rarity": "Unique",
+		"type": "Hero",
+		"race": "Dragon",
+		"unit_class": "Warden",
+		"personality": "Majestic",
+		"size": "Huge",
+		"height": 12,
+		"life": 8,
+		"move": 5,
+		"range": 1,
+		"attack": 6,
+		"defense": 3,
+		"points": 200,
+		"figures": 1,
+		"hex_per": 2,
+		"abilities": [
+			{
+				"name": "Summon Vines",
+				"description": "Xenithrax starts the game with three Xenithrax Vines Glyphs on thie Army Card. Once per round, after moving and before attacking, you may choose an empty space within 4 clear sight spaces of Xenithrax and place a Xenithrax Vines Glyph from this Army Card onto that space."
+			},
+			{
+				"name": "Erupting Earth Special Attack",
+				"description": "Range 5 + Special. Attack 4 - Special.\r\nThe first target of Erupting Earth Special Attack must be within a range of 5. After attacking with Erupting Earth Special Attack, you may choose a figure that was adjacent to the defending figure at the beginning of that attack and attack that chosen figure with Erupting Earth Special Attack, rolling one fewer attack die. You may continue attacking with Erupting Earth Special Attack in this manner, rolling one fewer die than the previous attack, up to a total of four attacks. A figure cannot be attacked more than once in a turn with Erupting Earth Special Attack."
+			}
+		],
+		"wave": "Age of Annihilation",
+		"pack": ""
+	},
+	{
+		"id": 229,
+		"name": "Bok-Bur-Na",
+		"general": "Utgar",
+		"rarity": "Unique",
+		"type": "Hero",
+		"race": "Marro",
+		"unit_class": "Captain",
+		"personality": "Terrifying",
+		"size": "Medium",
+		"height": 5,
+		"life": 5,
+		"move": 5,
+		"range": 5,
+		"attack": 2,
+		"defense": 3,
+		"points": 125,
+		"figures": 1,
+		"hex_per": 1,
+		"abilities": [
+			{
+				"name": "Intimidate",
+				"description": "Small and Medium figures within 3 clear sight spaces of Bok-Bur-Na reduce their Defense Value by 1 when attacked by a Captain or Pirate you control."
+			},
+			{
+				"name": "Swashbuckler",
+				"description": "After attacking with Bok-Bur-Na, you may attack an adjacent figure 1 additional time. Bok-Bur-Na's Attack Value is increased by 2 for the second attack."
+			},
+			{
+				"name": "Utgar's Cutlass 14",
+				"description": "When Bok-Bur-Na destroys an adjacent figure with a normal attack, you may roll the 20-sided die. If you roll a 14 or higher, remove one Wound Marker from Bok-Bur-Na. Bok-Bur-Na cannot use Utgar's Cutlass on destructable objects."
+			}
+		],
+		"wave": "Battle for the Wellspring",
+		"pack": ""
+	},
+	{
+		"id": 230,
+		"name": "Ewashia, Master of Tides",
+		"general": "Aquilla",
+		"rarity": "Unique",
+		"type": "Hero",
+		"race": "Dryan",
+		"unit_class": "Wizard",
+		"personality": "Fierce",
+		"size": "Medium",
+		"height": 6,
+		"life": 4,
+		"move": 5,
+		"range": 1,
+		"attack": 3,
+		"defense": 4,
+		"points": 115,
+		"figures": 1,
+		"hex_per": 1,
+		"abilities": [
+			{
+				"name": "Command Familiar",
+				"description": "After revealing an Order Marker on Ewashia, Master of Tides, before taking Ewashia's turn, you may take a turn with a Small or Medium Beast you control."
+			},
+			{
+				"name": "Twister Special Attack",
+				"description": "Range 6. Attack 4.\r\nEwashia may use Twister Special Attack if she is within 1 space of a water tile. Choose a figure to attack. You may also choose up to 2 spaces in a straight line from the targeted figure. All figures on those spaces are also affected by Twister Special Attack. Roll attack dice once for all affected figures. Each figure rolls defense dice separately. Ewashia is not affected by Twister Special Attack."
+			},
+			{
+				"name": "Aegis of the River",
+				"description": "Ewashia does not have to stop her movement when entering a water space. Add 1 to Ewashia's Defense Value while she is on a water space."
+			},
+			{
+				"name": "Create Water",
+				"description": "Ewashia starts each game with 3 water tiles on this Army Card. At the end of Ewashia's turn, you may place a water tile from this Army Card on Ewashia's space or within 1 space of Ewashia, if the water tile fits normally onto that space."
+			}
+		],
+		"wave": "Battle for the Wellspring",
+		"pack": ""
+	},
+	{
+		"id": 231,
+		"name": "Fia Bonny the Void Siren",
+		"general": "Einar",
+		"rarity": "Unique",
+		"type": "Hero",
+		"race": "Human",
+		"unit_class": "Captain",
+		"personality": "Tricky",
+		"size": "Medium",
+		"height": 5,
+		"life": 5,
+		"move": 5,
+		"range": 1,
+		"attack": 4,
+		"defense": 3,
+		"points": 80,
+		"figures": 1,
+		"hex_per": 1,
+		"abilities": [
+			{
+				"name": "Black Powder Pistol",
+				"description": "Start the game with 3 black Powder Markers on this card. After moving and before attacking, you may remove a Powder Marker from this card to add 4 to Fia Bonny the Void Siren's Range Value for the rest of the turn. You may only use this Special Power once during a round."
+			},
+			{
+				"name": "Master of Disguise 13",
+				"description": "The first time each turn that Fia Bonny is targeted by a Squad figure with a normal or special attack, you may roll the 20-sided die. If you roll a 13 or higher, Fia Bonny cannot be targeted by that attack or any other attack this turn."
+			},
+			{
+				"name": "Disengage",
+				"description": "Fia Bonny is never attacked when leaving an engagement."
+			}
+		],
+		"wave": "Battle for the Wellspring",
+		"pack": ""
+	},
+	{
+		"id": 232,
+		"name": "Killian Vane III",
+		"general": "Revna",
+		"rarity": "Unique",
+		"type": "Hero",
+		"race": "Human",
+		"unit_class": "Pirate",
+		"personality": "Fearless",
+		"size": "Medium",
+		"height": 5,
+		"life": 5,
+		"move": 5,
+		"range": 1,
+		"attack": 4,
+		"defense": 2,
+		"points": 80,
+		"figures": 1,
+		"hex_per": 1,
+		"abilities": [
+			{
+				"name": "Blunderbuss Special Attack",
+				"description": "Range 4. Attack 3.\r\nAll figures adjacent to the figure targeted by Blunderbuss Special Attack are also affected by Blunderbuss Special Attack. Roll attack dice once for all affected figures. Each figure rolls defense dice separately. Killian Vane III cannot be affected by his own Blunderbuss Special Attack."
+			}
+		],
+		"wave": "Battle for the Wellspring",
+		"pack": ""
+	},
+	{
+		"id": 233,
+		"name": "Kita the Springrunner",
+		"general": "Aquilla",
+		"rarity": "Unique",
+		"type": "Hero",
+		"race": "Springrunner",
+		"unit_class": "Beast",
+		"personality": "Noble",
+		"size": "Small",
+		"height": 4,
+		"life": 2,
+		"move": 6,
+		"range": 1,
+		"attack": 2,
+		"defense": 4,
+		"points": 30,
+		"figures": 1,
+		"hex_per": 1,
+		"abilities": [
+			{
+				"name": "Apparition",
+				"description": "Figures must be within two spaces of Kita the Springrunner to target her with a normal or special attack."
+			},
+			{
+				"name": "Phantom Walk",
+				"description": "Kita can move through all figures and is never attacked when leaving an engagement."
+			}
+		],
+		"wave": "Battle for the Wellspring",
+		"pack": ""
+	},
+	{
+		"id": 234,
+		"name": "Onshu the Welkineye",
+		"general": "Aquilla",
+		"rarity": "Unique",
+		"type": "Hero",
+		"race": "Welkineye",
+		"unit_class": "Beast",
+		"personality": "Wild",
+		"size": "Small",
+		"height": 4,
+		"life": 3,
+		"move": 6,
+		"range": 1,
+		"attack": 3,
+		"defense": 3,
+		"points": 50,
+		"figures": 1,
+		"hex_per": 1,
+		"abilities": [
+			{
+				"name": "Sonic Blast Special Attack",
+				"description": "Range 4. Attack 2.\r\nYou may attack one additional time with Sonic Blast Special Attack."
+			},
+			{
+				"name": "Flying",
+				"description": ""
+			}
+		],
+		"wave": "Battle for the Wellspring",
+		"pack": ""
+	},
+	{
+		"id": 235,
+		"name": "Sgt. Drake Alexander (AoA)",
+		"general": "Jandar",
+		"rarity": "Unique",
+		"type": "Hero",
+		"race": "Human",
+		"unit_class": "Soldier",
+		"personality": "Valiant",
+		"size": "Medium",
+		"height": 6,
+		"life": 6,
+		"move": 5,
+		"range": 1,
+		"attack": 6,
+		"defense": 3,
+		"points": 135,
+		"figures": 1,
+		"hex_per": 1,
+		"abilities": [
+			{
+				"name": "Thorian Speed",
+				"description": "Opponent's figures must be adjacent to Sgt. Drake Alexander to attack him with a normal attack."
+			},
+			{
+				"name": "Grapple Grab 8",
+				"description": "After moving and before attacking with Drake, you may choose one enemy Small or Medium figure within 4 clear sight spaces whose level is no more than 6 levels above or below Drake's level. Roll the 20-sided die. If you roll an 8 or higher, place the chosen figure on an empty same-level space adjacent to Drake. If the chosen figure is engaged when it is moved by Grapple Grab, it will not take any leaving engagement attacks."
+			},
+			{
+				"name": "Flying",
+				"description": ""
+			}
+		],
+		"wave": "Pre Orders",
+		"pack": "Sgt. Drake Alexander"
+	},
+	{
+		"id": 236,
+		"name": "Shiori (AoA)",
+		"general": "Einar",
+		"rarity": "Unique",
+		"type": "Hero",
+		"race": "Human",
+		"unit_class": "Ninja",
+		"personality": "Tricky",
+		"size": "Medium",
+		"height": 5,
+		"life": 4,
+		"move": 6,
+		"range": 1,
+		"attack": 4,
+		"defense": 3,
+		"points": 110,
+		"figures": 1,
+		"hex_per": 1,
+		"abilities": [
+			{
+				"name": "Ninjutsu Mastery Special Attack",
+				"description": "Range 1. Attack 2 + Special.\r\nIf Shiori did not move normally, she may attack with Ninjutsu Mastery Special Attack up to three times. Before each attack, you must choose an enemy figure within 2 clear sight spaces of Shiori not more than 6 levels above or below Shiori's level, and place her on an empty space adjacent to that figure. When attacking with Ninjutsu Master Special Attack, Shiori rolls 2 attack dice, or 3 attack dice if Shiori has exactly one unrevealed Order Marker on her Army Card."
+			},
+			{
+				"name": "Kieru 14",
+				"description": "If Shiori is attacked with a normal or special attack and receives 1 or more wounds, roll the 20-sided die. If you roll a 14 or higher, you may place Shiori on an empty space within 2 spaces or Shiori that is not more than 6 levels above or below Shiori's level. If you do, ignore all wounds just received."
+			},
+			{
+				"name": "Phantom Walk",
+				"description": "Shiori can move through all figures and is never attacked when leaving an engagement."
+			}
+			
+		],
+		"wave": "Pre Orders",
+		"pack": "Shiori"
+	},
+	{
+		"id": 237,
+		"name": "Cornelius Breech, The Derelict Prince",
+		"general": "Utgar",
+		"rarity": "Unique",
+		"type": "Hero",
+		"race": "Deamotaur",
+		"unit_class": "Pirate",
+		"personality": "Crafty",
+		"size": "Medium",
+		"height": 5,
+		"life": 5,
+		"move": 5,
+		"range": 1,
+		"attack": 3,
+		"defense": 3,
+		"points": 80,
+		"figures": 1,
+		"hex_per": 1,
+		"abilities": [
+			{
+				"name": "First Assault 2",
+				"description": "When Cornelius Breech, the Derelict Prince attacks, if the defending figure was not adjacent to him at the start of this turn, Cornelius adds 2 to his Attack Value during the attack."
+			},
+			{
+				"name": "Mutiny",
+				"description": "After a Unique Captain you control receives a wound or is destroyed, any or all Pirate Squads you control that chose Captain for The Captain's Way Special Power may choose Cornelius to be their chosen Captain for the rest of the game. If any Squads do, remove all Wound Markers from Cornelius Breech."
+			}
+		],
+		"wave": "Pre Orders",
+		"pack": "Cornelius Breech"
+	},
+	{
+		"id": 238,
+		"name": "Iron Lich Viscerot",
+		"general": "Revna",
+		"rarity": "Unique",
+		"type": "Hero",
+		"race": "Eisenek",
+		"unit_class": "Warlord",
+		"personality": "Terrifying",
+		"size": "Huge",
+		"height": 11,
+		"life": 6,
+		"move": 5,
+		"range": 5,
+		"attack": 3,
+		"defense": 4,
+		"points": 150,
+		"figures": 1,
+		"hex_per": 2,
+		"abilities": [
+			{
+				"name": "Dismissive Strider",
+				"description": "Iron Lich Viscerot can move through Small and Medium figures, does not take leaving engagement attacks from Small or Medium figures, and can target and attack non-adjacent figures while only engaged with Small or Medium figures."
+			},
+			{
+				"name": "Vile Injection",
+				"description": "Begin the game with 3 yellow Surge Markers on this Army Card. Once per turn, before moving another Eisenek figure within 5 clear sight spaces of Viscerot, you may remove a Surge Marker from this card to add 2 to that figure's Move and Attack Values until the end or turn."
+			},
+			{
+				"name": "Ironclad Puppeteer",
+				"description": "After revealing an Order Marker on Viscerot and taking a turn with Viscerot, you may take a turn with another Unique Eisenek Hero or Squad you control."
+			}
+		],
+		"wave": "Revna's Rebuke",
+		"pack": "Iron Lich Viscerot and Necrotech Wraithriders"
+	},
+	{
+		"id": 239,
+		"name": "Necrotech Wraithriders",
+		"general": "Revna",
+		"rarity": "Unique",
+		"type": "Hero",
+		"race": "Eisenek",
+		"unit_class": "Marauder",
+		"personality": "Wild",
+		"size": "Medium",
+		"height": 5,
+		"life": 2,
+		"move": 8,
+		"range": 1,
+		"attack": 3,
+		"defense": 3,
+		"points": 90,
+		"figures": 3,
+		"hex_per": 1,
+		"abilities": [
+			{
+				"name": "Chain Grab 9",
+				"description": "After moving and before attacking with the Necrotech Wraithriders, one at a time, each Wraithriders may choose an enemy or Small or Medium figure within 3 clear sight spaces whose level is no more than 11 levels above that Wraithrider's level or 6 levels below that Wraithrider's level. Roll the 20-sided die. If you roll a 9 or higher, place the chosen figure on any empty same-level space adjacent to that Wraithrider. Figures moved by Chain Grab do not take leaving engagement attacks. A figure can only be moved by Chain Grab once each turn."
+			},
+			{
+				"name": "Rolling Movement",
+				"description": "A Necrotech Wraithrider cannot move onto a space more than 2 levels above its level."
+			}
+		],
+		"wave": "Revna's Rebuke",
+		"pack": "Iron Lich Viscerot and Necrotech Wraithriders"
+	},
+	{
+		"id": 240,
+		"name": "Glinerva the Kyrie Warrior",
+		"general": "Aquilla",
+		"rarity": "Unique",
+		"type": "Hero",
+		"race": "Kyrie",
+		"unit_class": "Warrior",
+		"personality": "Fearsome",
+		"size": "Medium",
+		"height": 5,
+		"life": 5,
+		"move": 6,
+		"range": 1,
+		"attack": 3,
+		"defense": 3,
+		"points": 90,
+		"figures": 1,
+		"hex_per": 1,
+		"abilities": [
+			{
+				"name": "Hawni's Darkness",
+				"description": "When you reveal an Order Marker, you may also reveal the \"X\" Order Marker on Glinerva the Kyrie Warrior to activate Hawni's Darkness. Until you next reveal an Order Marker, Glinerva and all Small, Medium, and Large figures within 5 spaces of her cannot target or be targeted by non-adjacent figures with a normal or special attacks."
+			},
+			{
+				"name": "Concealment 17",
+				"description": "If Glinerva is targeted and receives one or more wounds from an attacking figure who is not adjacent, you must roll the 20-sided die. Count the minimum number of spaces between the attacker and Glinerva. Add this number to your die roll. If you roll a 17 or higher, ignore any wounds Glinerva just received."
+			},
+			{
+				"name": "Flying",
+				"description": ""
+			}
+		],
+		"wave": "Revna's Rebuke",
+		"pack": "Kyrie Warriors"
+	},
+	{
+		"id": 241,
+		"name": "Kilkorax the Kyrie Warrior",
+		"general": "Revna",
+		"rarity": "Unique",
+		"type": "Hero",
+		"race": "Undead",
+		"unit_class": "Warrior",
+		"personality": "Terrifying",
+		"size": "Medium",
+		"height": 5,
+		"life": 5,
+		"move": 6,
+		"range": 1,
+		"attack": 4,
+		"defense": 3,
+		"points": 95,
+		"figures": 1,
+		"hex_per": 1,
+		"abilities": [
+			{
+				"name": "Witchcraft Telekinesis",
+				"description": "After moving and before attacking, you may choose up to 2 different Small or Medium enemy figures within 5 clear sight spaces of Kilkorax the Kyrie Warrior. One at a time, roll the 20-sided die for each chosen figure. If the chosen figure is a Squad figure and you roll an 8 or higher, you may place the chosen figure onto a same-level space adjacent to Kilkorax. If the chosen figure is a Hero figure and you roll a 17 or higher, you may place the chosen figure onto a same-level space adjacent to Kilkorax. Figures moved by Witchcraft Telekinesis never take leaving engagement attacks."
+			},
+			{
+				"name": "Flying",
+				"description": ""
+			}
+		],
+		"wave": "Revna's Rebuke",
+		"pack": "Kyrie Warriors"
+	},
+	{
+		"id": 242,
+		"name": "Mielki the Kyrie Warrior",
+		"general": "Ullar",
+		"rarity": "Unique",
+		"type": "Hero",
+		"race": "Kyrie",
+		"unit_class": "Warrior",
+		"personality": "Inspiring",
+		"size": "Medium",
+		"height": 5,
+		"life": 5,
+		"move": 5,
+		"range": 1,
+		"attack": 4,
+		"defense": 3,
+		"points": 100,
+		"figures": 1,
+		"hex_per": 1,
+		"abilities": [
+			{
+				"name": "Double Attack",
+				"description": "Once per turn, after attacking with Mielki the Kyrie Warrior, she may make one additional normal attack."
+			},
+			{
+				"name": "Spear of Sankari",
+				"description": "When Mielki destroys a figure with a normal attack, you may choose a Small or Medium friendly figure within 4 clear sight spaces of Meilki. Remove a Wound Marker from the chosen figure. Mielki cannot heal herself with Spear of Sankari, and it cannot be used when destroying a destructible object."
+			},
+			{
+				"name": "Flying",
+				"description": ""
+			}
+		],
+		"wave": "Revna's Rebuke",
+		"pack": "Kyrie Warriors"
+	},
+	{
+		"id": 243,
+		"name": "Queen Qhyrion",
+		"general": "Vydar",
+		"rarity": "Unique",
+		"type": "Hero",
+		"race": "Kyrie",
+		"unit_class": "Queen",
+		"personality": "Tricky",
+		"size": "Medium",
+		"height": 5,
+		"life": 4,
+		"move": 4,
+		"range": 1,
+		"attack": 4,
+		"defense": 4,
+		"points": 110,
+		"figures": 1,
+		"hex_per": 1,
+		"abilities": [
+			{
+				"name": "Heart Finder Spear 12",
+				"description": "Before attacking with Queen Qhyrion, you may roll the 20-sided die. If you roll a 12 or higher, a figure attacked by Queen Qhyrion may roll no more than 1 die for defense."
+			},
+			{
+				"name": "Flying",
+				"description": ""
+			}
+		],
+		"wave": "Revna's Rebuke",
+		"pack": "Kyrie Warriors"
+	},
+	{
+		"id": 244,
+		"name": "Xiamara the Kyrie Warrior",
+		"general": "Ullar",
+		"rarity": "Unique",
+		"type": "Hero",
+		"race": "Kyrie",
+		"unit_class": "Warrior",
+		"personality": "Noble",
+		"size": "Medium",
+		"height": 5,
+		"life": 5,
+		"move": 5,
+		"range": 1,
+		"attack": 3,
+		"defense": 3,
+		"points": 80,
+		"figures": 1,
+		"hex_per": 1,
+		"abilities": [
+			{
+				"name": "Amulet of Paivatar",
+				"description": "When a Kyrie you control who follows Ullar within 6 clear sight spaces of Xiamara the Kyrie Warrior receives one or more wounds, you may roll the 20-sided die. If you roll an 8-16, ignore all but one wound just received. If you roll a 17 or higher, ignore all wounds just received. Amulet or Paivatar does not affect Xiamara."
+			},
+			{
+				"name": "Flying",
+				"description": ""
+			}
+		],
+		"wave": "Revna's Rebuke",
+		"pack": "Kyrie Warriors"
 	}
 ]

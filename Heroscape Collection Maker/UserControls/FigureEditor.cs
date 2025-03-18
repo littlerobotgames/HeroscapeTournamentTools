@@ -33,5 +33,10 @@ namespace Heroscape_Collection_Maker.UserControls
         {
             amount = Convert.ToInt32(numericUpDownAmount.Value);
         }
+        public void SetAmount(int _amount)
+        {
+            amount = _amount;
+            numericUpDownAmount.Value = amount;
+        }
     }
 }

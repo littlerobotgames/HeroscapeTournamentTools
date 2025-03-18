@@ -268,5 +268,40 @@
 			"Agent Skahen",
 			"Samuel Brown"
 		]
+	},
+	{
+		"name": "Age of Annihilation",
+		"date": "August 2024",
+		"type": "Master Set",
+		"alternate": "",
+		"packs": []
+	},
+	{
+		"name": "Battle for the Wellspring",
+		"date": "August 2024",
+		"type": "Master Set",
+		"alternate": "",
+		"packs": []
+	},
+	{
+		"name": "Pre Orders",
+		"date": "",
+		"type": "Promotional",
+		"alternate": "",
+		"packs": [
+			"Sgt. Drake Alexander",
+			"Shiori",
+			"Cornelius Breech"
+		]
+	},
+	{
+		"name": "Revna's Rebuke",
+		"date": "October 2024",
+		"type": "Wave",
+		"alternate": "",
+		"packs": [
+			"Iron Lich Viscerot and Necrotech Wraithriders",
+			"Kyrie Warriors"
+		]
 	}
 ]

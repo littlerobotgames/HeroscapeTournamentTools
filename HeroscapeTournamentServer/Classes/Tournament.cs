@@ -18,5 +18,5 @@
         public int entrants_max { get; set; } = 0;
         public int join_code { get; set; } = 0;
     }
-    public enum T_Format { Standard = 0, Heroes = 1, Doubles = 2 }
+    public enum T_Format { Standard = 0, Heroes = 1, Doubles = 2, GoV = 3 }
 }

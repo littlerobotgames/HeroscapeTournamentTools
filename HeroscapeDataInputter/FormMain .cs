@@ -74,7 +74,7 @@ namespace HeroscapeDataInputter
         }
         public List<Set> sets;
         public List<Card> cards;
-        public string[] Generals = { "Jandar", "Ullar", "Einar", "Vydar", "Utgar", "Aquilla", "Valkrill", "Marvel"};
+        public string[] Generals = { "Jandar", "Ullar", "Einar", "Vydar", "Utgar", "Aquilla", "Valkrill", "Marvel", "Revna"};
         public string[] Sizes = { "Small", "Medium", "Large", "Huge" };
         public string[] Rarity = { "Common", "Uncommon", "Unique" };
         public string[] Type = { "Squad", "Hero" };
