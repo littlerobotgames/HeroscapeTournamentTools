@@ -359,8 +359,9 @@ namespace HeroscapeTournamentServer.Controllers
         public FigureCollection GetAvailableFiguresCollection(int _tournamentId)
         {
             FigureCollection totalAvailable = GetCombinedCollections();
+            Tournament tournament = tournaments.Where(t => t.id == _tournamentId).FirstOrDefault();
 
-            foreach(TournyEntry entry in tournaments.Where(t => t.id == _tournamentId).FirstOrDefault().entries)
+            foreach (TournyEntry entry in tournament.entries)
             {
                 foreach(ArmyEntry armyEntry in armies[entry.army].ArmyEntries)
                 {

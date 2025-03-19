@@ -6736,7 +6736,7 @@
 		"name": "Warriors of Ashra",
 		"general": "Ullar",
 		"rarity": "Unique",
-		"type": "Hero",
+		"type": "Squad",
 		"race": "Elves",
 		"unit_class": "Warriors",
 		"personality": "Tricky",
@@ -7735,7 +7735,6 @@
 				"name": "Phantom Walk",
 				"description": "Shiori can move through all figures and is never attacked when leaving an engagement."
 			}
-			
 		],
 		"wave": "Pre Orders",
 		"pack": "Shiori"
@@ -7813,7 +7812,7 @@
 		"name": "Necrotech Wraithriders",
 		"general": "Revna",
 		"rarity": "Unique",
-		"type": "Hero",
+		"type": "Squad",
 		"race": "Eisenek",
 		"unit_class": "Marauder",
 		"personality": "Wild",

@@ -42,6 +42,7 @@ namespace HeroscapeTournamentClient.Pages
         public static int PointSoft { get; set; }
         public static int HexLimit { get; set; }
         public static int HexSoft { get; set; }
+        public static T_Format Format { get; set; }
         public Page_Build(FormMain mainForm)
         {
             InitializeComponent();
@@ -75,6 +76,7 @@ namespace HeroscapeTournamentClient.Pages
                 PointSoft = tournament.point_flex;
                 HexLimit = tournament.hexes_max;
                 HexSoft = tournament.hexes_flex;
+                Format = tournament.format;
             }
 
             UpdateRuleset();
@@ -125,6 +127,7 @@ namespace HeroscapeTournamentClient.Pages
             {
                 labelHexes.ForeColor = Color.Black;
             }
+            cardIconPanel1.UpdateList();
         }
         public void UpdateArmyCards()
         {

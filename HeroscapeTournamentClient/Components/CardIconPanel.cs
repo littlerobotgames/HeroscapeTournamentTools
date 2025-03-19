@@ -41,77 +41,98 @@ namespace HeroscapeTournamentClient.Buttons
             int start_X = 50;
             int start_Y = 50;
 
+            List<string> filters_rarity = new List<string>();
+            List<string> filters_type = new List<string>();
+
+            switch (Page_Build.Format)
+            {
+                case T_Format.Standard:
+                    break;
+                case T_Format.Doubles:
+                    break;
+                case T_Format.Heroes:
+                    break;
+                case T_Format.GoV:
+                    filters_rarity.Add("Unique");
+                    filters_rarity.Add("Uncommon");
+                    filters_type.Add("Hero");
+                    break;
+            }
+
             if (FormMain.AllCards.Count > 0)
             {
                 foreach (Card card in FormMain.AllCards)
                 {
-                    CardIcon cardIcon = new CardIcon();
-
-                    cardIcon.cardId = card.id;
-                    cardIcon.labelCardName.Text = card.name;
-                    cardIcon.labelPoints.Text = card.points.ToString();
-                    cardIcon.Location = new Point(start_X, start_Y);
-                    cardIcon.myMaster = this;
-
-                    cardIcon.labelAmount.ForeColor = Globals.GetGeneralColorAccent(card.general);
-
-                    if (isBrowse)
+                    if (CardRarityInFilters(card, filters_rarity) && CardTypeInFilters(card, filters_type))
                     {
-                        cardIcon.labelAmount.Text = "";
+                        CardIcon cardIcon = new CardIcon();
 
-                        cardIcon.buttonSubtract.Enabled = false;
-                        cardIcon.buttonSubtract.Visible = false;
-                        cardIcon.buttonAdd.Enabled = false;
-                        cardIcon.buttonAdd.Visible = false;
-                    }
-                    else
-                    {
-                        int totalFigures = 0;
-                        int thisArmyFigures = 0;
+                        cardIcon.cardId = card.id;
+                        cardIcon.labelCardName.Text = card.name;
+                        cardIcon.labelPoints.Text = card.points.ToString();
+                        cardIcon.Location = new Point(start_X, start_Y);
+                        cardIcon.myMaster = this;
 
-                        int totalAmountIndex = AvailableUnits.armyEntries.FindIndex(e => e.cardId == cardIcon.cardId);
-                        int thisArmyAmountIndex = Page_Build.currentArmy.ArmyEntries.FindIndex(e => e.cardId == cardIcon.cardId);
+                        cardIcon.labelAmount.ForeColor = Globals.GetGeneralColorAccent(card.general);
 
-                        if (totalAmountIndex != -1)
+                        if (isBrowse)
                         {
-                            totalFigures = AvailableUnits.armyEntries[totalAmountIndex].amount;
-                        }
+                            cardIcon.labelAmount.Text = "";
 
-                        if (thisArmyAmountIndex != -1)
-                        {
-                            thisArmyFigures = Page_Build.currentArmy.ArmyEntries[thisArmyAmountIndex].amount;
-                        }
-
-                        cardIcon.AmountCurrent = thisArmyFigures;
-                        cardIcon.AmountMax = totalFigures;
-                       
-                        if (card.rarity == "Unique")
-                        {
-                            if (thisArmyFigures == 1)
-                            {
-                                cardIcon.buttonAdd.Enabled = false;
-                                cardIcon.buttonAdd.Visible = false;
-                            }
-                        }
-                        if (thisArmyFigures == 0)
-                        {
                             cardIcon.buttonSubtract.Enabled = false;
                             cardIcon.buttonSubtract.Visible = false;
+                            cardIcon.buttonAdd.Enabled = false;
+                            cardIcon.buttonAdd.Visible = false;
                         }
-                    }
+                        else
+                        {
+                            int totalFigures = 0;
+                            int thisArmyFigures = 0;
 
-                    cardIcon.BackColor = Globals.GetGeneralColorBase(card.general);
-                    cardIcon.labelCardName.ForeColor = Globals.GetGeneralColorAccent(card.general);
-                    cardIcon.labelPoints.ForeColor = Globals.GetGeneralColorAccent(card.general);
+                            int totalAmountIndex = AvailableUnits.armyEntries.FindIndex(e => e.cardId == cardIcon.cardId);
+                            int thisArmyAmountIndex = Page_Build.currentArmy.ArmyEntries.FindIndex(e => e.cardId == cardIcon.cardId);
 
-                    Controls.Add(cardIcon);
+                            if (totalAmountIndex != -1)
+                            {
+                                totalFigures = AvailableUnits.armyEntries[totalAmountIndex].amount;
+                            }
 
-                    start_X += 200;
+                            if (thisArmyAmountIndex != -1)
+                            {
+                                thisArmyFigures = Page_Build.currentArmy.ArmyEntries[thisArmyAmountIndex].amount;
+                            }
 
-                    if (start_X == 850)
-                    {
-                        start_X = 50;
-                        start_Y += 175;
+                            cardIcon.AmountCurrent = thisArmyFigures;
+                            cardIcon.AmountMax = totalFigures;
+
+                            if (card.rarity == "Unique")
+                            {
+                                if (thisArmyFigures == 1)
+                                {
+                                    cardIcon.buttonAdd.Enabled = false;
+                                    cardIcon.buttonAdd.Visible = false;
+                                }
+                            }
+                            if (thisArmyFigures == 0)
+                            {
+                                cardIcon.buttonSubtract.Enabled = false;
+                                cardIcon.buttonSubtract.Visible = false;
+                            }
+                        }
+
+                        cardIcon.BackColor = Globals.GetGeneralColorBase(card.general);
+                        cardIcon.labelCardName.ForeColor = Globals.GetGeneralColorAccent(card.general);
+                        cardIcon.labelPoints.ForeColor = Globals.GetGeneralColorAccent(card.general);
+
+                        Controls.Add(cardIcon);
+
+                        start_X += 200;
+
+                        if (start_X == 850)
+                        {
+                            start_X = 50;
+                            start_Y += 175;
+                        }
                     }
                 }
             } 
@@ -245,6 +266,40 @@ namespace HeroscapeTournamentClient.Buttons
                     }
                 }
             }
+        }
+        private bool CardRarityInFilters(Card card, List<string> filters)
+        {
+            if (filters.Count == 0)
+            {
+                Debug.WriteLine("Length of rarity filters is 0");
+                return true;
+            }
+            for(int i = 0; i < filters.Count; i++)
+            {
+                if (card.rarity == filters[i])
+                {
+                    Debug.WriteLine("Card Rarity Matches");
+                    return true;
+                }
+            }
+            return false;
+        }
+        private bool CardTypeInFilters(Card card, List<string> filters)
+        {
+            if (filters.Count == 0)
+            {
+                Debug.WriteLine("Length of type filters is 0");
+                return true;
+            }
+            for (int i = 0; i < filters.Count; i++)
+            {
+                if (card.type == filters[i])
+                {
+                    Debug.WriteLine("Card Type Matches");
+                    return true;
+                }
+            }
+            return false;
         }
     }
 }

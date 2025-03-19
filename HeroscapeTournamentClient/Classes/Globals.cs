@@ -39,7 +39,8 @@ namespace HeroscapeTournamentClient.Classes
         {
             "Standard Singles",
             "Heroes Only Singles",
-            "Standard Doubles"
+            "Standard Doubles",
+            "The Gauntlet of Valhalla"
         };
         public static Color GetGeneralColorBase(string _general)
         {
@@ -61,6 +62,8 @@ namespace HeroscapeTournamentClient.Classes
                     return Color.Yellow;
                 case "Marvel":
                     return Color.Purple;
+                case "Revna":
+                    return Color.LightGray;
                 default:
                     return Color.Gray;
             }
