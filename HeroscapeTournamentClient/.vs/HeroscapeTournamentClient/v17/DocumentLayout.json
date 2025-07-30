@@ -1,0 +1,320 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeTournamentClient\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA56DDE-474C-4268-B3C5-F33CDA0AEA48}|HeroscapeTournamentClient.csproj|c:\\users\\user\\onedrive\\documents\\heroscapetournamenttools\\heroscapetournamentclient\\classes\\servercommunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEA56DDE-474C-4268-B3C5-F33CDA0AEA48}|HeroscapeTournamentClient.csproj|solutionrelative:classes\\servercommunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA56DDE-474C-4268-B3C5-F33CDA0AEA48}|HeroscapeTournamentClient.csproj|c:\\users\\user\\onedrive\\documents\\heroscapetournamenttools\\heroscapetournamentclient\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEA56DDE-474C-4268-B3C5-F33CDA0AEA48}|HeroscapeTournamentClient.csproj|solutionrelative:formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA56DDE-474C-4268-B3C5-F33CDA0AEA48}|HeroscapeTournamentClient.csproj|c:\\users\\user\\onedrive\\documents\\heroscapetournamenttools\\heroscapetournamentclient\\pages\\page_battlepickarmy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEA56DDE-474C-4268-B3C5-F33CDA0AEA48}|HeroscapeTournamentClient.csproj|solutionrelative:pages\\page_battlepickarmy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA56DDE-474C-4268-B3C5-F33CDA0AEA48}|HeroscapeTournamentClient.csproj|c:\\users\\user\\onedrive\\documents\\heroscapetournamenttools\\heroscapetournamentclient\\components\\cardiconpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEA56DDE-474C-4268-B3C5-F33CDA0AEA48}|HeroscapeTournamentClient.csproj|solutionrelative:components\\cardiconpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA56DDE-474C-4268-B3C5-F33CDA0AEA48}|HeroscapeTournamentClient.csproj|c:\\users\\user\\onedrive\\documents\\heroscapetournamenttools\\heroscapetournamentclient\\classes\\tournament.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEA56DDE-474C-4268-B3C5-F33CDA0AEA48}|HeroscapeTournamentClient.csproj|solutionrelative:classes\\tournament.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA56DDE-474C-4268-B3C5-F33CDA0AEA48}|HeroscapeTournamentClient.csproj|c:\\users\\user\\onedrive\\documents\\heroscapetournamenttools\\heroscapetournamentclient\\pages\\page_build.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEA56DDE-474C-4268-B3C5-F33CDA0AEA48}|HeroscapeTournamentClient.csproj|solutionrelative:pages\\page_build.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA56DDE-474C-4268-B3C5-F33CDA0AEA48}|HeroscapeTournamentClient.csproj|c:\\users\\user\\onedrive\\documents\\heroscapetournamenttools\\heroscapetournamentclient\\pages\\page_battle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEA56DDE-474C-4268-B3C5-F33CDA0AEA48}|HeroscapeTournamentClient.csproj|solutionrelative:pages\\page_battle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA56DDE-474C-4268-B3C5-F33CDA0AEA48}|HeroscapeTournamentClient.csproj|c:\\users\\user\\onedrive\\documents\\heroscapetournamenttools\\heroscapetournamentclient\\components\\panelarmylist.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEA56DDE-474C-4268-B3C5-F33CDA0AEA48}|HeroscapeTournamentClient.csproj|solutionrelative:components\\panelarmylist.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA56DDE-474C-4268-B3C5-F33CDA0AEA48}|HeroscapeTournamentClient.csproj|c:\\users\\user\\onedrive\\documents\\heroscapetournamenttools\\heroscapetournamentclient\\components\\codesubmit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEA56DDE-474C-4268-B3C5-F33CDA0AEA48}|HeroscapeTournamentClient.csproj|solutionrelative:components\\codesubmit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA56DDE-474C-4268-B3C5-F33CDA0AEA48}|HeroscapeTournamentClient.csproj|c:\\users\\user\\onedrive\\documents\\heroscapetournamenttools\\heroscapetournamentclient\\components\\cardicon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEA56DDE-474C-4268-B3C5-F33CDA0AEA48}|HeroscapeTournamentClient.csproj|solutionrelative:components\\cardicon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA56DDE-474C-4268-B3C5-F33CDA0AEA48}|HeroscapeTournamentClient.csproj|C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeTournamentClient\\components\\cardicon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CEA56DDE-474C-4268-B3C5-F33CDA0AEA48}|HeroscapeTournamentClient.csproj|solutionrelative:components\\cardicon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA56DDE-474C-4268-B3C5-F33CDA0AEA48}|HeroscapeTournamentClient.csproj|C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeTournamentClient\\components\\currentcardpanelsmall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CEA56DDE-474C-4268-B3C5-F33CDA0AEA48}|HeroscapeTournamentClient.csproj|solutionrelative:components\\currentcardpanelsmall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA56DDE-474C-4268-B3C5-F33CDA0AEA48}|HeroscapeTournamentClient.csproj|C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeTournamentClient\\components\\currentcardpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CEA56DDE-474C-4268-B3C5-F33CDA0AEA48}|HeroscapeTournamentClient.csproj|solutionrelative:components\\currentcardpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA56DDE-474C-4268-B3C5-F33CDA0AEA48}|HeroscapeTournamentClient.csproj|c:\\users\\user\\onedrive\\documents\\heroscapetournamenttools\\heroscapetournamentclient\\pages\\page_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEA56DDE-474C-4268-B3C5-F33CDA0AEA48}|HeroscapeTournamentClient.csproj|solutionrelative:pages\\page_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA56DDE-474C-4268-B3C5-F33CDA0AEA48}|HeroscapeTournamentClient.csproj|c:\\users\\user\\onedrive\\documents\\heroscapetournamenttools\\heroscapetournamentclient\\classes\\credentials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEA56DDE-474C-4268-B3C5-F33CDA0AEA48}|HeroscapeTournamentClient.csproj|solutionrelative:classes\\credentials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA56DDE-474C-4268-B3C5-F33CDA0AEA48}|HeroscapeTournamentClient.csproj|C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeTournamentClient\\pages\\page_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CEA56DDE-474C-4268-B3C5-F33CDA0AEA48}|HeroscapeTournamentClient.csproj|solutionrelative:pages\\page_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA56DDE-474C-4268-B3C5-F33CDA0AEA48}|HeroscapeTournamentClient.csproj|C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeTournamentClient\\components\\panelarmylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CEA56DDE-474C-4268-B3C5-F33CDA0AEA48}|HeroscapeTournamentClient.csproj|solutionrelative:components\\panelarmylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA56DDE-474C-4268-B3C5-F33CDA0AEA48}|HeroscapeTournamentClient.csproj|c:\\users\\user\\onedrive\\documents\\heroscapetournamenttools\\heroscapetournamentclient\\pages\\page_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEA56DDE-474C-4268-B3C5-F33CDA0AEA48}|HeroscapeTournamentClient.csproj|solutionrelative:pages\\page_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServerCommunication.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeTournamentClient\\Classes\\ServerCommunication.cs",
+              "RelativeDocumentMoniker": "Classes\\ServerCommunication.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeTournamentClient\\Classes\\ServerCommunication.cs",
+              "RelativeToolTip": "Classes\\ServerCommunication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T02:25:21.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormMain.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeTournamentClient\\FormMain.cs",
+              "RelativeDocumentMoniker": "FormMain.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeTournamentClient\\FormMain.cs",
+              "RelativeToolTip": "FormMain.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwEAAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T02:23:38.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Tournament.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeTournamentClient\\Classes\\Tournament.cs",
+              "RelativeDocumentMoniker": "Classes\\Tournament.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeTournamentClient\\Classes\\Tournament.cs",
+              "RelativeToolTip": "Classes\\Tournament.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAUwBQAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T02:23:38.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Page_Build.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeTournamentClient\\Pages\\Page_Build.cs",
+              "RelativeDocumentMoniker": "Pages\\Page_Build.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeTournamentClient\\Pages\\Page_Build.cs",
+              "RelativeToolTip": "Pages\\Page_Build.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwIEAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T02:23:38.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CardIconPanel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeTournamentClient\\Components\\CardIconPanel.cs",
+              "RelativeDocumentMoniker": "Components\\CardIconPanel.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeTournamentClient\\Components\\CardIconPanel.cs",
+              "RelativeToolTip": "Components\\CardIconPanel.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAAwIUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T02:23:38.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Page_BattlePickArmy.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeTournamentClient\\Pages\\Page_BattlePickArmy.cs",
+              "RelativeDocumentMoniker": "Pages\\Page_BattlePickArmy.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeTournamentClient\\Pages\\Page_BattlePickArmy.cs",
+              "RelativeToolTip": "Pages\\Page_BattlePickArmy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T02:23:38.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Page_Battle.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeTournamentClient\\Pages\\Page_Battle.cs",
+              "RelativeDocumentMoniker": "Pages\\Page_Battle.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeTournamentClient\\Pages\\Page_Battle.cs",
+              "RelativeToolTip": "Pages\\Page_Battle.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAA3wDgAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T02:23:38.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PanelArmyList.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeTournamentClient\\Components\\PanelArmyList.Designer.cs",
+              "RelativeDocumentMoniker": "Components\\PanelArmyList.Designer.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeTournamentClient\\Components\\PanelArmyList.Designer.cs",
+              "RelativeToolTip": "Components\\PanelArmyList.Designer.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAswCEAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T02:23:38.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CodeSubmit.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeTournamentClient\\Components\\CodeSubmit.cs",
+              "RelativeDocumentMoniker": "Components\\CodeSubmit.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeTournamentClient\\Components\\CodeSubmit.cs",
+              "RelativeToolTip": "Components\\CodeSubmit.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAkwCwAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T02:23:38.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CardIcon.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeTournamentClient\\Components\\CardIcon.cs",
+              "RelativeDocumentMoniker": "Components\\CardIcon.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeTournamentClient\\Components\\CardIcon.cs",
+              "RelativeToolTip": "Components\\CardIcon.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAowHYAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T02:23:38.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CardIcon.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeTournamentClient\\Components\\CardIcon.cs",
+              "RelativeDocumentMoniker": "Components\\CardIcon.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeTournamentClient\\Components\\CardIcon.cs [Design]",
+              "RelativeToolTip": "Components\\CardIcon.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T02:23:38.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CurrentCardPanelSmall.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeTournamentClient\\Components\\CurrentCardPanelSmall.cs",
+              "RelativeDocumentMoniker": "Components\\CurrentCardPanelSmall.cs",
+              "ToolTip": "C:\\Users\\alex\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeTournamentClient\\Components\\CurrentCardPanelSmall.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\alex\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeTournamentClient\\Components\\CurrentCardPanelSmall.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2025-03-19T02:23:38.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CurrentCardPanel.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeTournamentClient\\Components\\CurrentCardPanel.cs",
+              "RelativeDocumentMoniker": "Components\\CurrentCardPanel.cs",
+              "ToolTip": "C:\\Users\\alex\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeTournamentClient\\Components\\CurrentCardPanel.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\alex\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeTournamentClient\\Components\\CurrentCardPanel.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2025-03-19T02:23:38.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Page_Login.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeTournamentClient\\Pages\\Page_Login.cs",
+              "RelativeDocumentMoniker": "Pages\\Page_Login.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeTournamentClient\\Pages\\Page_Login.cs",
+              "RelativeToolTip": "Pages\\Page_Login.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T02:23:38.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Credentials.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeTournamentClient\\Classes\\Credentials.cs",
+              "RelativeDocumentMoniker": "Classes\\Credentials.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeTournamentClient\\Classes\\Credentials.cs",
+              "RelativeToolTip": "Classes\\Credentials.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T02:23:38.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Page_Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeTournamentClient\\Pages\\Page_Login.cs",
+              "RelativeDocumentMoniker": "Pages\\Page_Login.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeTournamentClient\\Pages\\Page_Login.cs [Design]",
+              "RelativeToolTip": "Pages\\Page_Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T02:23:38.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PanelArmyList.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeTournamentClient\\Components\\PanelArmyList.cs",
+              "RelativeDocumentMoniker": "Components\\PanelArmyList.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeTournamentClient\\Components\\PanelArmyList.cs [Design]",
+              "RelativeToolTip": "Components\\PanelArmyList.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T02:23:38.56Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Page_Main.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeTournamentClient\\Pages\\Page_Main.cs",
+              "RelativeDocumentMoniker": "Pages\\Page_Main.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeTournamentClient\\Pages\\Page_Main.cs",
+              "RelativeToolTip": "Pages\\Page_Main.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T02:23:38.562Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -17,12 +17,12 @@ namespace HeroscapeTournamentClient.Classes
     {
         private static HttpClient client = new HttpClient();
         public static FormMain? MainForm;
-        public static string Root = System.IO.Path.GetFullPath(@"..\..\..\");
+        public static string Root = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
         private static string Password = "I-rolled-all-blanks";
 
         public static async Task RunAsync()
         {
-            client.BaseAddress = new Uri("http://localhost:5061/");
+            client.BaseAddress = new Uri("http://73.98.248.103:5000/");
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Accept.Add(
                 new MediaTypeWithQualityHeaderValue("application/json"));
@@ -85,7 +85,12 @@ namespace HeroscapeTournamentClient.Classes
             }
 
             string text = JsonSerializer.Serialize(cards);
-            File.WriteAllText(Root + "/gamedata/data_figures.json", text);
+
+            if (!Directory.Exists(Root + "/HeroscapeTournamentClient"))
+            {
+                Directory.CreateDirectory(Root + "/HeroscapeTournamentClient");
+            }
+            File.WriteAllText(Root + "/HeroscapeTournamentClient/data_figures.json", text);
 
             return cards;
         }

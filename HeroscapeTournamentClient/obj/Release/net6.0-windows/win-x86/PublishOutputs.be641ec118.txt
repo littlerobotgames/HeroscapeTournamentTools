@@ -1,0 +1,8 @@
+C:\Users\User\OneDrive\Desktop\HeroscapeTournamentClient.pdb
+C:\Users\User\OneDrive\Desktop\HeroscapeTournamentClient.dll.config
+C:\Users\User\OneDrive\Desktop\D3DCompiler_47_cor3.dll
+C:\Users\User\OneDrive\Desktop\PenImc_cor3.dll
+C:\Users\User\OneDrive\Desktop\PresentationNative_cor3.dll
+C:\Users\User\OneDrive\Desktop\vcruntime140_cor3.dll
+C:\Users\User\OneDrive\Desktop\wpfgfx_cor3.dll
+C:\Users\User\OneDrive\Desktop\HeroscapeTournamentClient.exe

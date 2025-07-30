@@ -36,7 +36,7 @@ namespace HeroscapeTournamentClient.Buttons
                 Controls[0].Dispose();
             }
 
-            int start_y = 25;
+            int start_y = 12;
             foreach(Army army in MyArmies)
             {
                 ArmyCard tempCard = new ArmyCard(this);
@@ -65,7 +65,7 @@ namespace HeroscapeTournamentClient.Buttons
 
                     tempCard.panelEntryCards.Controls.Add(tempIcon);
 
-                    start_x += 128;
+                    start_x += 80;
                 }
 
                 tempCard.labelName.Text = army.name;
@@ -74,7 +74,7 @@ namespace HeroscapeTournamentClient.Buttons
 
                 Controls.Add(tempCard);
 
-                start_y += 225;
+                start_y += 110;
             }
         }
     }

@@ -371,6 +371,45 @@ namespace HeroscapeTournamentServer.Controllers
 
             return totalAvailable;
         }
+        [HttpPatch("Print Army Data")]
+        public void PrintTournamentArmiesToFile(int _tournamentId, string fileName)
+        {
+            Tournament tournament = tournaments.Where(t => t.id == _tournamentId).FirstOrDefault();
+            Army allArmies = new Army();
+            string fileText = "";
+
+            foreach(TournyEntry entry in tournament.entries)
+            {
+                foreach(ArmyEntry armyEntry in armies[entry.army].ArmyEntries)
+                {
+                    int entryID = armyEntry.cardId;
+                    int entryAmount = armyEntry.amount;
+
+                    ArmyEntry existingEntry = allArmies.ArmyEntries.Where(t => t.cardId == entryID).FirstOrDefault();
+
+                    if (existingEntry != null)
+                    {
+                        existingEntry.amount += entryAmount;
+                    }
+                    else
+                    {
+                        allArmies.ArmyEntries.Add(armyEntry);
+                    }
+                }
+            }
+
+            foreach(ArmyEntry armyEntryFinal in allArmies.ArmyEntries)
+            {
+                string cardName = cards.Where(c => c.id == armyEntryFinal.cardId).FirstOrDefault().name;
+                int cardAmount = armyEntryFinal.amount;
+
+                fileText += $"{cardName} x{cardAmount}\n";
+            }
+
+            System.IO.File.WriteAllText(Root + $"/gamedata/{fileName}.txt", fileText);
+
+        }
+
         [ApiExplorerSettings(IgnoreApi = true)]
         public static string DecryptString(string encrypted, string password)
         {

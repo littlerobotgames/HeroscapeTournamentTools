@@ -28,20 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
+            SuspendLayout();
             // 
             // CardIconPanel
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoScroll = true;
-            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Name = "CardIconPanel";
-            this.Padding = new System.Windows.Forms.Padding(50);
-            this.Size = new System.Drawing.Size(950, 980);
-            this.Load += new System.EventHandler(this.IconPanelLoad);
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            AutoScroll = true;
+            BackColor = SystemColors.ButtonHighlight;
+            Margin = new Padding(2, 1, 2, 1);
+            Name = "CardIconPanel";
+            Padding = new Padding(27, 23, 27, 23);
+            Size = new Size(512, 459);
+            Load += IconPanelLoad;
+            ResumeLayout(false);
         }
 
         #endregion

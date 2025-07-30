@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "oXrlaa2fvcmte5HVqFXotEJxGO2jinegQwtJZ0QkXQZzrQX4dHqFWl2RCEIjG/sD7oTXD3CzWBrEkyAPVcdwyQ==",
+  "dgSpecHash": "Dx7JJHG/E3Q=",
   "success": true,
-  "projectFilePath": "C:\\Users\\alex\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeTournamentClient\\HeroscapeTournamentClient.csproj",
+  "projectFilePath": "C:\\Users\\User\\OneDrive\\Documents\\HeroscapeTournamentTools\\HeroscapeTournamentClient\\HeroscapeTournamentClient.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\alex\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
-    "C:\\Users\\alex\\.nuget\\packages\\system.net.http\\2.0.20126.16343\\system.net.http.2.0.20126.16343.nupkg.sha512",
-    "C:\\Users\\alex\\.nuget\\packages\\system.net.http.formatting.extension\\5.2.3\\system.net.http.formatting.extension.5.2.3.nupkg.sha512"
+    "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.net.http\\2.0.20126.16343\\system.net.http.2.0.20126.16343.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.net.http.formatting.extension\\5.2.3\\system.net.http.formatting.extension.5.2.3.nupkg.sha512"
   ],
   "logs": [
     {

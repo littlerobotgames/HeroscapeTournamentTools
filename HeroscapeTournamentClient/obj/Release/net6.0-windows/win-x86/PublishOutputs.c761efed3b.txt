@@ -1,0 +1,8 @@
+C:\Users\User\OneDrive\Desktop\HTC\HeroscapeTournamentClient.pdb
+C:\Users\User\OneDrive\Desktop\HTC\HeroscapeTournamentClient.dll.config
+C:\Users\User\OneDrive\Desktop\HTC\D3DCompiler_47_cor3.dll
+C:\Users\User\OneDrive\Desktop\HTC\PenImc_cor3.dll
+C:\Users\User\OneDrive\Desktop\HTC\PresentationNative_cor3.dll
+C:\Users\User\OneDrive\Desktop\HTC\vcruntime140_cor3.dll
+C:\Users\User\OneDrive\Desktop\HTC\wpfgfx_cor3.dll
+C:\Users\User\OneDrive\Desktop\HTC\HeroscapeTournamentClient.exe

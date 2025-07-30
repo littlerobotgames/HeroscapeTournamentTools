@@ -71,7 +71,7 @@ namespace HeroscapeTournamentClient.Pages
         {
             panelYourArmies.Controls.Clear();
 
-            int start_y = 25;
+            int start_y = 12;
             foreach (Army army in armyList)
             {
                 ArmyCard tempCard = new ArmyCard(panelYourArmies);
@@ -100,7 +100,7 @@ namespace HeroscapeTournamentClient.Pages
 
                     tempCard.panelEntryCards.Controls.Add(tempIcon);
 
-                    start_x += 128;
+                    start_x += 80;
                 }
 
                 tempCard.labelName.Text = army.name;
@@ -112,14 +112,14 @@ namespace HeroscapeTournamentClient.Pages
 
                 panelYourArmies.Controls.Add(tempCard);
 
-                start_y += 225;
+                start_y += 110;
             }
         }
         private void ReloadPresetArmies()
         {
             panelTournyPresets.Controls.Clear();
 
-            int start_y = 25;
+            int start_y = 12;
             foreach (Army army in presetList)
             {
                 ArmyCard tempCard = new ArmyCard(panelTournyPresets);
@@ -148,7 +148,7 @@ namespace HeroscapeTournamentClient.Pages
 
                     tempCard.panelEntryCards.Controls.Add(tempIcon);
 
-                    start_x += 128;
+                    start_x += 80;
                 }
 
                 tempCard.labelName.Text = army.name;
@@ -160,7 +160,7 @@ namespace HeroscapeTournamentClient.Pages
 
                 panelTournyPresets.Controls.Add(tempCard);
 
-                start_y += 225;
+                start_y += 110;
             }
         }
     }

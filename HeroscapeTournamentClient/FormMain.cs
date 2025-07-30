@@ -12,7 +12,7 @@ namespace HeroscapeTournamentClient
         public static List<UserControl> Pages;
         public static PlayerPublic myPlayer;
         public static List<Card> AllCards = new List<Card>();
-        public static string DatabaseVersion = "1.0.0";
+        public static string DatabaseVersion = "1.0.1";
         
         public FormMain()
         {

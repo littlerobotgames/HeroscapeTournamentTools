@@ -38,8 +38,8 @@ namespace HeroscapeTournamentClient.Buttons
                 Controls.RemoveAt(0);
             }
 
-            int start_X = 50;
-            int start_Y = 50;
+            int start_X = 25;
+            int start_Y = 25;
 
             List<string> filters_rarity = new List<string>();
             List<string> filters_type = new List<string>();
@@ -126,12 +126,12 @@ namespace HeroscapeTournamentClient.Buttons
 
                         Controls.Add(cardIcon);
 
-                        start_X += 200;
+                        start_X += 100;
 
-                        if (start_X == 850)
+                        if (start_X == 425)
                         {
-                            start_X = 50;
-                            start_Y += 175;
+                            start_X = 25;
+                            start_Y += 80;
                         }
                     }
                 }
@@ -271,14 +271,12 @@ namespace HeroscapeTournamentClient.Buttons
         {
             if (filters.Count == 0)
             {
-                Debug.WriteLine("Length of rarity filters is 0");
                 return true;
             }
             for(int i = 0; i < filters.Count; i++)
             {
                 if (card.rarity == filters[i])
                 {
-                    Debug.WriteLine("Card Rarity Matches");
                     return true;
                 }
             }
@@ -288,14 +286,12 @@ namespace HeroscapeTournamentClient.Buttons
         {
             if (filters.Count == 0)
             {
-                Debug.WriteLine("Length of type filters is 0");
                 return true;
             }
             for (int i = 0; i < filters.Count; i++)
             {
                 if (card.type == filters[i])
                 {
-                    Debug.WriteLine("Card Type Matches");
                     return true;
                 }
             }
