@@ -1,0 +1,1 @@
+draw_sprite_stretched_ext(spr_unit_card, 0, room_width - 600, 70, 580, room_height - 80, c_dkgray, 1);

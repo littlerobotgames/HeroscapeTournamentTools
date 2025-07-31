@@ -59,11 +59,14 @@ namespace HeroscapeTournamentServer.Controllers
         [HttpGet("GetDatabaseVersion")]
         public string GetDatabaseVersion()
         {
+            Console.WriteLine("Got a version ping");
+
             return DatabaseVersion;
         }
         [HttpGet("GetCardDatabase")]
         public IEnumerable<Card> GetCardDatabase()
         {
+            Console.WriteLine("Got a request for the database");
             return cards;
         }
         [HttpGet("GetSetDatabase")]

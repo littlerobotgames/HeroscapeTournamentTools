@@ -8,7 +8,7 @@ switch (room)
 		draw_set_valign(fa_middle);
 		draw_set_font(fnt_title);
 		
-		draw_text(room_width / 2, 150, "Heroscape Tournaments");
+		draw_text_shadow(room_width / 2, 150, "Heroscape Tournaments", c_white, 1000);
 		
 		break;
 }
