@@ -1,11 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "rP5w1f8d4yaV+CU8fyJIGckCLxlw/XlW/4SEBiRECok=",
-  "Source": "HeroscapeTournamentServer",
-  "BasePath": "_content/HeroscapeTournamentServer",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
-}
+{"Version":1,"Hash":"1GuUON+SgAeoHfCy7beatbatQb5BQ6vpwg5/p7Ra9DE=","Source":"HeroscapeTournamentServer","BasePath":"_content/HeroscapeTournamentServer","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}

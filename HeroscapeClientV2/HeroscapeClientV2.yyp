@@ -35,6 +35,7 @@
   },
   "name":"HeroscapeClientV2",
   "resources":[
+    {"id":{"name":"fnt_lrg","path":"fonts/fnt_lrg/fnt_lrg.yy",},},
     {"id":{"name":"fnt_med","path":"fonts/fnt_med/fnt_med.yy",},},
     {"id":{"name":"fnt_small","path":"fonts/fnt_small/fnt_small.yy",},},
     {"id":{"name":"fnt_title","path":"fonts/fnt_title/fnt_title.yy",},},
@@ -50,6 +51,7 @@
     {"id":{"name":"scr_http","path":"scripts/scr_http/scr_http.yy",},},
     {"id":{"name":"scr_unit_data","path":"scripts/scr_unit_data/scr_unit_data.yy",},},
     {"id":{"name":"spr_button_back","path":"sprites/spr_button_back/spr_button_back.yy",},},
+    {"id":{"name":"spr_loading","path":"sprites/spr_loading/spr_loading.yy",},},
     {"id":{"name":"spr_unit_card_name","path":"sprites/spr_unit_card_name/spr_unit_card_name.yy",},},
     {"id":{"name":"spr_unit_card","path":"sprites/spr_unit_card/spr_unit_card.yy",},},
   ],

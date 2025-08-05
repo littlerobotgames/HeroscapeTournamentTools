@@ -36,6 +36,8 @@ switch (_status)
 						
 						_temp_request = new Request(SERVER_ADDRESS+"/Heroscape/GetSetDatabase", request_type.database_get_sets, "GET", "");
 						_temp_request.Send();
+						
+						status = "Updating Database...";
 					}
 					else
 					{
@@ -90,5 +92,8 @@ switch (_status)
 		
 		show_debug_message($"{_downloaded}/{_length}");
 		
+		break;
+	default:
+		error = "Could not connect to the server";
 		break;
 }
