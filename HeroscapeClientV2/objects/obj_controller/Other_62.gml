@@ -49,7 +49,7 @@ switch (_status)
 	
 						global.card_database = json_parse(_data);
 						
-						room_goto(rm_browse);
+						room_goto(rm_login);
 					}
 					
 					show_debug_message(_result);
@@ -66,7 +66,7 @@ switch (_status)
 					
 					file_text_close(_file);
 					
-					room_goto(rm_browse);
+					room_goto(rm_login);
 					break;
 				
 				case request_type.database_get_sets:
@@ -77,6 +77,22 @@ switch (_status)
 					
 					file_text_close(_file);
 					
+					break;
+				case request_type.player_login:
+									
+					show_debug_message($"Got player info: {_result}");
+					
+					if _http_status = 200
+					{
+						global.player_data = json_parse(_result);
+					
+						room_goto(rm_menu);
+					}
+					else
+					{
+						status = _
+					}
+				
 					break;
 			}
 			

@@ -23,4 +23,14 @@ switch (room)
 		
 		draw_text_shadow(room_width / 2, 150, "Heroscape Tournaments", c_white, 1000);
 		break;
+	case rm_menu:
+		if global.player_data != -1
+		{
+			draw_set_halign(fa_center);
+			draw_set_valign(fa_middle);
+			
+			draw_set_font(fnt_lrg);
+			draw_text_shadow(750, 75, $"{global.player_data.firstname} {global.player_data.lastname}", c_white, 400);
+		}
+		break;
 }

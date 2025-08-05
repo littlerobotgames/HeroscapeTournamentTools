@@ -4,6 +4,7 @@ enum request_type
 	database_version,
 	database_get_cards,
 	database_get_sets,
+	player_login,
 }
 
 
@@ -20,7 +21,18 @@ function Request(_url, _type, _req_method, _data) constructor
 	{
 		ds_list_add(global.requests, self);
 		
-		send_id = http_request(url, req_method, headers, data);
+		var _send_data = data;
+		
+		if _send_data != ""
+		{
+			var _buffer = buffer_create(2048,  buffer_fixed, 1);
+			
+			buffer_write(_buffer, buffer_string, data);
+			
+			_send_data = _buffer;
+		}
+		
+		send_id = http_request(url, req_method, headers, _send_data);
 		
 		show_debug_message($"[{send_id}] Sent message to server");
 	}

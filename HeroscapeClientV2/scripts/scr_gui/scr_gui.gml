@@ -32,7 +32,7 @@ function general_get_color(_name)
 	return noone;
 }
 
-function UnitCard(_unit_data, _width, _height, _grid_x, _grid_y, _spacing) constructor
+function UnitCard(_unit_data, _width, _height, _grid_x, _grid_y, _spacing, _parent) constructor
 {
 	card_id = _unit_data.id;
 	card_name = _unit_data.name;
@@ -48,8 +48,9 @@ function UnitCard(_unit_data, _width, _height, _grid_x, _grid_y, _spacing) const
 	grid_x = _grid_x;
 	grid_y = _grid_y;
 	spacing = _spacing;
+	parent = _parent;
 	
-	function Draw(_scroll_amount, _x, _y)
+	function Draw()
 	{
 		var _w_half = (width / 2) * size;
 		var _h_half = (height / 2) * size;
@@ -57,9 +58,9 @@ function UnitCard(_unit_data, _width, _height, _grid_x, _grid_y, _spacing) const
 		var _color = general_get_color(card_general);
 		
 		var _draw_x = (grid_x * (width + spacing)) + (width / 2) + spacing;
-		var _draw_y = (grid_y * (height + spacing)) + (height / 2) + spacing - _scroll_amount;
+		var _draw_y = (grid_y * (height + spacing)) + (height / 2) + spacing - parent.scroll_amount_current;
 		
-		var _hover = point_in_rectangle(mouse_x - _x, mouse_y - _y, _draw_x - _w_half, _draw_y - _h_half, _draw_x + _w_half, _draw_y + _h_half)
+		var _hover = point_in_rectangle(mouse_x - parent.x, mouse_y - parent.y, _draw_x - _w_half, _draw_y - _h_half, _draw_x + _w_half, _draw_y + _h_half)
 		
 		if _hover
 		{
@@ -84,11 +85,17 @@ function UnitCard(_unit_data, _width, _height, _grid_x, _grid_y, _spacing) const
 		draw_sprite_stretched_ext(spr_unit_card, 0, _draw_x - _w_half, _draw_y - _h_half, width * size, height * size, _color, 1);
 		draw_sprite_stretched_ext(spr_unit_card_name, 0, _draw_x - _w_half, _draw_y - _h_half, width * size, height * size, c_black, 1);
 
-		draw_set_font(fnt_small);
+		draw_set_font(fnt_name);
 		draw_set_halign(fa_center);
 		draw_set_valign(fa_middle);
 
 		draw_set_color(c_white);
-		draw_text_ext(_draw_x, _draw_y + (25 * size), card_name, 10, 90);
+		draw_text_ext(_draw_x, _draw_y + (25 * size), card_name, 15, 90);
+		
+		if parent.mode = MODE_BUILD
+		{
+			draw_set_halign(fa_right);
+			draw_text_shadow(_draw_x + (_w_half - 10), _draw_y - (_h_half - 10), $"{amount}/{amount_max}", c_white, 100);
+		}
 	}
 }

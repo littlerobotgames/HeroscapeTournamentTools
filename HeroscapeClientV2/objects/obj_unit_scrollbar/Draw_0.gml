@@ -10,7 +10,7 @@ draw_sprite_stretched_ext(spr_unit_card, 0, 0, 0, scrollbar_width, scrollbar_hei
 
 for (var i = 0; i < ds_list_size(unit_cards); i++)
 {
-	unit_cards[|i].Draw(scroll_amount_current, x, y);
+	unit_cards[|i].Draw();
 }
 
 surface_reset_target();
@@ -50,40 +50,40 @@ if global.selected_card != -1
 	draw_set_halign(fa_left);
 	draw_set_font(fnt_med);
 	
-	draw_text_shadow(40, 180, _card_data.general, c_white, 200);
-	draw_text_shadow(40, 200, _card_data.race, c_white, 200);
-	draw_text_shadow(40, 220, $"{_card_data.rarity} {_card_data.type}", c_white, 200);
-	draw_text_shadow(40, 240, _card_data.unit_class, c_white, 200);
+	draw_text_shadow(40, 160, _card_data.general, c_white, 200);
+	draw_text_shadow(40, 185, _card_data.race, c_white, 200);
+	draw_text_shadow(40, 210, $"{_card_data.rarity} {_card_data.type}", c_white, 200);
+	draw_text_shadow(40, 235, _card_data.unit_class, c_white, 200);
 	draw_text_shadow(40, 260, _card_data.personality, c_white, 200);
 	
 	draw_text_shadow(40, 300, $"Life: {_card_data.life}", c_white, 200);
-	draw_text_shadow(40, 320, $"Move: {_card_data.move}", c_white, 200);
-	draw_text_shadow(40, 340, $"Range: {_card_data.range}", c_white, 200);
-	draw_text_shadow(40, 360, $"Attack: {_card_data.attack}", c_white, 200);
-	draw_text_shadow(40, 380, $"Defense: {_card_data.defense}", c_white, 200);
-	draw_text_shadow(40, 400, $"Points: {_card_data.points}", c_white, 200);
+	draw_text_shadow(40, 325, $"Move: {_card_data.move}", c_white, 200);
+	draw_text_shadow(40, 350, $"Range: {_card_data.range}", c_white, 200);
+	draw_text_shadow(40, 375, $"Attack: {_card_data.attack}", c_white, 200);
+	draw_text_shadow(40, 400, $"Defense: {_card_data.defense}", c_white, 200);
+	draw_text_shadow(40, 425, $"Points: {_card_data.points}", c_white, 200);
 	
-	draw_text_shadow(40, 440, $"Figures: {_card_data.figures}", c_white, 200);
-	draw_text_shadow(40, 460, $"Hexes per Unit: {_card_data.hex_per}", c_white, 200);
-	draw_text_shadow(40, 480, $"Total Hexes: {_card_data.figures * _card_data.hex_per}", c_white, 200);
+	draw_text_shadow(40, 465, $"Figures: {_card_data.figures}", c_white, 200);
+	draw_text_shadow(40, 490, $"Hexes per Unit: {_card_data.hex_per}", c_white, 200);
+	draw_text_shadow(40, 515, $"Total Hexes: {_card_data.figures * _card_data.hex_per}", c_white, 200);
 	
 	//Abilities
-	var _draw_y = 170;
+	var _draw_y = 150;
 	
 	for (var i = 0; i < array_length(_card_data.abilities); i++)
 	{
 		draw_set_font(fnt_med);
 		draw_set_valign(fa_top);
 		
-		draw_text_shadow(180, _draw_y, _card_data.abilities[i].name, c_white, 250);
-		_draw_y += 25;
+		draw_text_shadow(220, _draw_y, _card_data.abilities[i].name, c_white, 300);
+		_draw_y += 30;
 		
 		draw_set_font(fnt_small);
-		draw_text_shadow(180, _draw_y, _card_data.abilities[i].description, c_white, 250);
+		draw_text_shadow(220, _draw_y, _card_data.abilities[i].description, c_white, 300);
 		
 		var _f_size = font_get_size(draw_get_font());
-		var _height = string_height_ext(_card_data.abilities[i].description, _f_size * 1.7, 250);
+		var _height = string_height_ext(_card_data.abilities[i].description, _f_size * 1.7, 300);
 		
-		_draw_y += _height + 10;
+		_draw_y += _height + 15;
 	}
 }
