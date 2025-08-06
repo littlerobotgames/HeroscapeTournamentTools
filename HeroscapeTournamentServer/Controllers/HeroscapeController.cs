@@ -119,6 +119,8 @@ namespace HeroscapeTournamentServer.Controllers
         [HttpPost("PlayerLogin")]
         public PlayerPublic PlayerLogin([FromBody] Credentials _credentials)
         {
+            Console.WriteLine("Got credentials from client: " + _credentials.ToString());
+
             string _email = _credentials.Email;
             string _password = _credentials.Password;
 

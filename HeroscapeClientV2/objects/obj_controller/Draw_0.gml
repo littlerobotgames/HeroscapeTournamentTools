@@ -33,4 +33,16 @@ switch (room)
 			draw_text_shadow(750, 75, $"{global.player_data.firstname} {global.player_data.lastname}", c_white, 400);
 		}
 		break;
+	
+	case rm_build_menu:
+		var _draw_x = 275;
+		var _draw_y = 125;		
+		
+		for (var i = 0; i < array_length(armies_data); i++)
+		{
+			armies_data[i].Draw(_draw_x, _draw_y);
+			
+			_draw_y += 125;
+		}
+		break;
 }

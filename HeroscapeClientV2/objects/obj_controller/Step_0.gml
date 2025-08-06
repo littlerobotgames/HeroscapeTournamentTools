@@ -11,10 +11,11 @@ switch (room)
 			password: textbox_password.text
 			}
 			
-			var _login_string = json_stringify(_login_struct);
+			var _login_string = json_stringify(_login_struct, true);
 			
 			var _request = new Request(SERVER_ADDRESS+"/Heroscape/PlayerLogin", request_type.player_login, "POST", _login_string);
-	
+			_request.AddHeader("Content-Type", "text/json");
+			
 			_request.Send();
 			
 			status = "Logging in...";

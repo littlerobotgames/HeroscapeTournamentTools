@@ -29,7 +29,22 @@ for (var i = 0; i < array_length(global.card_database); i++)
 {
 	var _card_data = global.card_database[i];
 	
-	ds_list_add(unit_cards, new UnitCard(_card_data, card_width, card_height, _grid_x, _grid_y, card_spacing, self)); 
+	var _unit_card = new UnitCard(_card_data, card_width, card_height, _grid_x, _grid_y, card_spacing, self);
+	
+	if global.build_army != -1
+	{
+		for (var e = 0; e < array_length(global.build_army.army_entries); e++)
+		{
+			var _entry_data = global.build_army.army_entries[e];
+			
+			if _entry_data.unit_id = _unit_card.card_id
+			{
+				_unit_card.amount = _entry_data.unit_amount;
+			}
+		}
+	}
+	
+	ds_list_add(unit_cards, _unit_card); 
 	
 	_grid_x++;
 	
@@ -42,6 +57,6 @@ for (var i = 0; i < array_length(global.card_database); i++)
 
 my_surface = surface_create(scrollbar_width, scrollbar_height);
 
-scroll_max = _grid_y * (card_height + card_spacing) - scrollbar_height;
+scroll_max = (_grid_y * (card_height + card_spacing) - scrollbar_height) + card_spacing;
 
 click_scrolling = false;

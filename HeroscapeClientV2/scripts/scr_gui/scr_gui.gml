@@ -60,7 +60,10 @@ function UnitCard(_unit_data, _width, _height, _grid_x, _grid_y, _spacing, _pare
 		var _draw_x = (grid_x * (width + spacing)) + (width / 2) + spacing;
 		var _draw_y = (grid_y * (height + spacing)) + (height / 2) + spacing - parent.scroll_amount_current;
 		
-		var _hover = point_in_rectangle(mouse_x - parent.x, mouse_y - parent.y, _draw_x - _w_half, _draw_y - _h_half, _draw_x + _w_half, _draw_y + _h_half)
+		var _m_x = mouse_x - parent.x;
+		var _m_y = mouse_y - parent.y;
+		
+		var _hover = point_in_rectangle(_m_x, _m_y, _draw_x - _w_half, _draw_y - _h_half, _draw_x + _w_half, _draw_y + _h_half)
 		
 		if _hover
 		{
@@ -95,7 +98,141 @@ function UnitCard(_unit_data, _width, _height, _grid_x, _grid_y, _spacing, _pare
 		if parent.mode = MODE_BUILD
 		{
 			draw_set_halign(fa_right);
-			draw_text_shadow(_draw_x + (_w_half - 10), _draw_y - (_h_half - 10), $"{amount}/{amount_max}", c_white, 100);
+			
+			if amount_max > 0
+			{
+				draw_text_shadow(_draw_x + (_w_half - 10), _draw_y - (_h_half - 10), $"{amount}/{amount_max}", c_white, 100);
+			}
+			else
+			{
+				draw_text_shadow(_draw_x + (_w_half - 10), _draw_y - (_h_half - 10), amount, c_white, 100);
+			}
+			
+			var _hover_minus = point_in_rectangle(_m_x, _m_y, (_draw_x - _w_half) + 5, _draw_y - 5, (_draw_x - _w_half) + 15, _draw_y + 5);
+			var _hover_plus = point_in_rectangle(_m_x, _m_y, (_draw_x + _w_half) - 15, _draw_y - 5, (_draw_x + _w_half) - 5, _draw_y + 5);
+			
+			if amount > 0
+			{
+				draw_sprite(spr_icon_minus, _hover_minus, (_draw_x - _w_half) + 10, _draw_y);
+			}
+			
+			draw_sprite(spr_icon_plus, _hover_plus, (_draw_x + _w_half) - 10, _draw_y);
+			
+			if _hover_plus
+			{
+				if mouse_check_button_pressed(mb_left)
+				{
+					amount++;
+					
+					if amount_max > 0
+					{
+						amount = clamp(amount, 0, amount_max);
+					}
+				}
+			}
+			if _hover_minus
+			{
+				if amount > 0
+				{
+					if mouse_check_button_pressed(mb_left)
+					{
+						amount--;
+					}
+				}
+			}
 		}
 	}
+}
+
+function ArmyCard(_army_data) constructor
+{
+	army_id = _army_data.id;
+	army_name = _army_data.name;
+	army_entries = _army_data.armyEntries;
+	army_points = 0;
+	army_hexes = 0;
+	
+	size = 1;
+	size_max = 1.05;
+	width = 400;
+	height = 100;
+	
+	function Init()
+	{
+		army_points = army_total_points(army_entries);
+		army_hexes = army_total_hexes(army_entries);
+		
+		var _new_entries = array_create(0);
+		
+		for (var i = 0; i < array_length(army_entries); i++)
+		{
+			var _entry = army_entries[i];
+			var _unit_data = unit_find(_entry.cardId);
+			
+			var _new_entry = new ArmyCardEntry(_unit_data, _entry.amount);
+			
+			array_push(_new_entries, _new_entry);
+		}
+		
+		army_entries = _new_entries;
+	}
+	
+	function Draw(_x, _y)
+	{
+		var _w_half = width / 2;
+		var _h_half = height / 2;
+		
+		var _hover = point_in_rectangle(mouse_x, mouse_y, _x - _w_half, _y - _h_half, _x + _w_half, _y + _h_half);
+		
+		if _hover
+		{
+			if size < size_max
+			{
+				size = lerp(size, size_max, 0.2);
+			}
+			
+			if mouse_check_button_pressed(mb_left)
+			{
+				global.build_army = self;
+				room_goto(rm_build);
+			}
+		}
+		else
+		{
+			if size > 1
+			{
+				size = lerp(size, 1, 0.2);
+			}
+		}
+		
+		draw_set_color(c_ltgray);
+		draw_sprite_stretched_ext(spr_unit_card, 0, _x - (_w_half * size), _y - (_h_half * size), width * size, height * size, c_ltgray, 1);
+		
+		draw_set_font(fnt_med);
+		draw_set_halign(fa_left);
+		draw_set_valign(fa_middle);
+		
+		draw_text_shadow(_x - (185 * size), _y - (30 * size), army_name, c_white, 200);
+		
+		draw_set_font(fnt_small);
+		draw_set_halign(fa_right);
+		draw_text_shadow(_x + (180 * size), _y - (30 * size), $"Points: {army_points}     Hexes: {army_hexes}", c_white, 300);
+		
+		draw_set_font(fnt_name);
+		draw_set_halign(fa_left);
+		for (var i = 0; i < array_length(army_entries); i++)
+		{
+			var _entry = army_entries[i];
+			
+			draw_text_shadow(_x - (180 * size), _y + (((i * 12) - 5) * size), $"{_entry.unit_name} x{_entry.unit_amount}", c_white, 300);
+		}
+	}
+}
+
+function ArmyCardEntry(_unit_data, _unit_amount) constructor
+{
+	unit_id = _unit_data.id;
+	unit_name = _unit_data.name;
+	unit_amount = _unit_amount;
+	unit_general = _unit_data.general;
 }

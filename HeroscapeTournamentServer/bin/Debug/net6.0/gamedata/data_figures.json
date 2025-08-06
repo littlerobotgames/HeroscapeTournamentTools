@@ -6137,7 +6137,7 @@
 		"abilities": [
 			{
 				"name": "Counter Strike",
-				"description": "When rolling defense dice against a normal attack fron an adjacent figure, all excess shields count as unblockable hits on the attacking figure. This power does not work against other Samurai."
+				"description": "When rolling defense dice against a normal attack from an adjacent attacking figure, all excess shields count as unblockable hits on the attacking figure. This power does not work against other Samurai."
 			},
 			{
 				"name": "Bloodlust",

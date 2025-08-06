@@ -13,6 +13,6 @@ if mouse_check_button_pressed(mb_left)
 {
 	if _hover
 	{
-		room_goto(rm_menu);
+		room_goto(my_room);
 	}
 }

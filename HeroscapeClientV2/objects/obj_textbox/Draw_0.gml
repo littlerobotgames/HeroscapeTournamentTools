@@ -8,6 +8,13 @@ draw_set_halign(fa_left);
 draw_set_valign(fa_middle);
 draw_set_font(fnt_med);
 
+var _blinker = "";
+
+if blinker and typing
+{
+	_blinker = "|";
+}
+
 if text = "" and !typing
 {
 	draw_text_shadow(x - (_w_half - 10), y, reminder_text, c_ltgray, _w_half - 20);
@@ -23,10 +30,10 @@ else
 			_hidden +="*";
 		}
 		
-		draw_text_shadow(x - (_w_half - 10), y, _hidden, c_white, _w_half - 20);
+		draw_text_shadow(x - (_w_half - 10), y, _hidden + _blinker, c_white, _w_half - 20);
 	}
 	else
 	{
-		draw_text_shadow(x - (_w_half - 10), y, text, c_white, _w_half - 20);
+		draw_text_shadow(x - (_w_half - 10), y, text + _blinker, c_white, _w_half - 20);
 	}
 }

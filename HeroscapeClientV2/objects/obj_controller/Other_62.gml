@@ -90,9 +90,26 @@ switch (_status)
 					}
 					else
 					{
-						status = _
+						error = "Could not log in";
 					}
 				
+					break;
+				
+				case request_type.get_player_armies:
+					armies_data = [];
+					var _armies_data = json_parse(_result);
+					
+					for (var i = 0; i < array_length(_armies_data); i++)
+					{
+						var _army_data = _armies_data[i];
+						
+						var _army_card = new ArmyCard(_army_data);
+						
+						_army_card.Init();
+						
+						array_push(armies_data, _army_card);
+					}
+					
 					break;
 			}
 			
