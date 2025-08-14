@@ -96,6 +96,8 @@ switch (_status)
 					break;
 				
 				case request_type.get_player_armies:
+					show_debug_message($"Got Army Data: {_result}");
+				
 					armies_data = [];
 					var _armies_data = json_parse(_result);
 					
@@ -110,6 +112,21 @@ switch (_status)
 						array_push(armies_data, _army_card);
 					}
 					
+					break;
+					
+				case request_type.army_save:
+					if _http_status != 400
+					{
+						if global.build_army.army_id = -1
+						{
+							show_debug_message($"New Army ID = {_result}");
+							global.build_army.army_id = real(_result);
+						}
+					}
+					else
+					{
+						show_debug_message(_result);
+					}
 					break;
 			}
 			

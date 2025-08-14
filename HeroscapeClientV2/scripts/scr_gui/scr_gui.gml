@@ -124,6 +124,8 @@ function UnitCard(_unit_data, _width, _height, _grid_x, _grid_y, _spacing, _pare
 				{
 					amount++;
 					
+					global.build_army.ChangeEntries(card_id, 1);
+					
 					if amount_max > 0
 					{
 						amount = clamp(amount, 0, amount_max);
@@ -137,6 +139,8 @@ function UnitCard(_unit_data, _width, _height, _grid_x, _grid_y, _spacing, _pare
 					if mouse_check_button_pressed(mb_left)
 					{
 						amount--;
+						
+						global.build_army.ChangeEntries(card_id, -1);
 					}
 				}
 			}
@@ -146,8 +150,9 @@ function UnitCard(_unit_data, _width, _height, _grid_x, _grid_y, _spacing, _pare
 
 function ArmyCard(_army_data) constructor
 {
-	army_id = _army_data.id;
+	army_id = _army_data.armyId;
 	army_name = _army_data.name;
+	playerId = _army_data.playerId;
 	army_entries = _army_data.armyEntries;
 	army_points = 0;
 	army_hexes = 0;
@@ -175,6 +180,41 @@ function ArmyCard(_army_data) constructor
 		}
 		
 		army_entries = _new_entries;
+	}
+	
+	function ChangeEntries(_unit_id, _amount)
+	{
+		//Adjust value of existing entry
+		var _unit_data = unit_find(_unit_id);
+		var _changed = false;
+		var _point_change = _unit_data.points * _amount;
+		var _hex_change = _unit_data.hex_per * _unit_data.figures * _amount;
+		
+		for (var i = 0; i < array_length(army_entries); i++)
+		{
+			if army_entries[i].unit_id = _unit_id
+			{
+				army_entries[i].unit_amount += _amount;
+				_changed = true;
+			}
+		}
+		//Add a new entry if one doesn't exist
+		if !_changed and _amount > 0
+		{
+			array_push(army_entries, new ArmyCardEntry(_unit_data, _amount));
+		}
+		army_hexes += _hex_change;
+		army_points += _point_change;
+		
+		//Delete empty entries
+		for (var i = 0; i < array_length(army_entries); i++)
+		{
+			if army_entries[i].unit_amount = 0
+			{
+				array_delete(army_entries, i, 1);
+				i = 0;
+			}
+		}
 	}
 	
 	function Draw(_x, _y)

@@ -2181,7 +2181,7 @@
 			},
 			{
 				"name": "Scurry",
-				"description": "When a Goblin Cutter you control is destroyed by a normal attack from an opponent's figure, you may move any 2 Goblin Cutters you control up to 4 spaces each, and all Goblin Cutters you control no longer have any visible Hit Zones for the duration of the attacking figure's turn while they remain unengaged. Goblin Cutters will never take any leaving engagement attacks while using Scurry."
+				"description": "When a Goblin Cutter you control is destroyed by a normal attack from an opponent's figure, you may move any 2 Goblin Cutters you control up to 4 spaces each, and all Goblin Cutters you control no doubleer have any visible Hit Zones for the duration of the attacking figure's turn while they remain unengaged. Goblin Cutters will never take any leaving engagement attacks while using Scurry."
 			},
 			{
 				"name": "Scale",
@@ -3145,7 +3145,7 @@
 		"abilities": [
 			{
 				"name": "Charging Assault",
-				"description": "Any or all Kozuke Samurai may add 3 to their Move number as long as they are unengaged prior to moving. Kozuke Samurai must be able to move adjacent to an opponent's figure in order to use Charging Assault."
+				"description": "Any or all Kozuke Samurai may add 3 to their Move number as double as they are unengaged prior to moving. Kozuke Samurai must be able to move adjacent to an opponent's figure in order to use Charging Assault."
 			},
 			{
 				"name": "Counter Strike",
@@ -3237,7 +3237,7 @@
 		"abilities": [
 			{
 				"name": "Ninjutsu Barrage Special Attack",
-				"description": "Range 1. Attack 3. Instead of moving and attacking normallhy with Kumiko, you may move Kumiko up to 3 spaces. Kumiko can attack up to 3 times with Ninjutsu Barrage Special Attack at any point before, during, or after this move as long as Kumiko is on a space where she could end her movement. Kumiko cannot attack the same figure more than once on a single turn."
+				"description": "Range 1. Attack 3. Instead of moving and attacking normallhy with Kumiko, you may move Kumiko up to 3 spaces. Kumiko can attack up to 3 times with Ninjutsu Barrage Special Attack at any point before, during, or after this move as double as Kumiko is on a space where she could end her movement. Kumiko cannot attack the same figure more than once on a single turn."
 			},
 			{
 				"name": "Phantom Walk",
@@ -4301,7 +4301,7 @@
 		"abilities": [
 			{
 				"name": "Smoke Powder 13",
-				"description": "When any Nakita Agent you control, or any figure you control that is adjacent to any Nakita agent you control, is targeted for a normal attack from a non-adjacent opponent, you may roll the 20-sided die. If you roll a 13 or higher, all Nakita Agents you control and all figures you control that are adjacent to those agents, no longer have any visible hit zones for the duration of the targeting figure's turn."
+				"description": "When any Nakita Agent you control, or any figure you control that is adjacent to any Nakita agent you control, is targeted for a normal attack from a non-adjacent opponent, you may roll the 20-sided die. If you roll a 13 or higher, all Nakita Agents you control and all figures you control that are adjacent to those agents, no doubleer have any visible hit zones for the duration of the targeting figure's turn."
 			},
 			{
 				"name": "Engagement Strike 15",

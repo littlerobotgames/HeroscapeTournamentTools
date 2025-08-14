@@ -2,7 +2,7 @@
 {
     public class Player
     {
-        public int id { get; set; } = 0;
+        public int playerId { get; set; } = 0;
         public string firstname { get; set; } = "";
         public string lastname { get; set; } = "";
         public string email { get; set; }
@@ -15,7 +15,7 @@
     }
     public class PlayerPublic
     {
-        public int id { get; set; } = 0;
+        public int playerId { get; set; } = 0;
         public string firstname { get; set; } = "";
         public string lastname { get; set; } = "";
         public int medals_gold { get; set; } = 0;
@@ -26,7 +26,7 @@
 
         public PlayerPublic(Player p)
         {
-            id = p.id;
+            playerId = p.playerId;
             firstname = p.firstname;
             lastname = p.lastname;
             medals_gold = p.medals_gold;

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HeroscapeTournamentServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8dbbe8d55a93a209415b52b6cc4f28c6f24aec32")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+991f0952e310e1f971b5f1b780062ce7a9ad4113")]
 [assembly: System.Reflection.AssemblyProductAttribute("HeroscapeTournamentServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HeroscapeTournamentServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -26,7 +26,7 @@ switch (room)
 	
 	case rm_build_menu:
 		var _request = new Request(SERVER_ADDRESS+"/Heroscape/GetPlayerArmies", request_type.get_player_armies, "GET", "");
-		_request.AddHeader("playerId", string(global.player_data.id));
+		_request.AddHeader("playerId", string(global.player_data.playerId));
 		
 		_request.Send();
 		break;

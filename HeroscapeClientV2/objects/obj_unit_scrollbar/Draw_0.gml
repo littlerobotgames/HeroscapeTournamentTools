@@ -98,5 +98,26 @@ if mode = MODE_BUILD
 		draw_set_halign(fa_left);
 		
 		draw_text_shadow(40, 70, global.build_army.army_name, c_white, 200);
+		
+		draw_set_font(fnt_small);
+		draw_text_shadow(40, 95, $"Points: {global.build_army.army_points}     Hexes: {global.build_army.army_hexes}", c_white, 300);
+		
+		for (var i = 0; i < array_length(global.build_army.army_entries); i++)
+		{
+			var _draw_x = 60 + (i * 110);
+			var _draw_y = 150;
+			
+			var _entry = global.build_army.army_entries[i];
+			
+			draw_sprite_stretched_ext(spr_unit_card, 0, _draw_x - 50, _draw_y - 30, 100, 60,  general_get_color(_entry.unit_general), 1);
+			
+			draw_set_halign(fa_center);
+			draw_set_font(fnt_med);
+			
+			draw_text_shadow(_draw_x, _draw_y - 15, _entry.unit_amount, c_white, 200);
+			
+			draw_set_font(fnt_name);
+			draw_text_shadow(_draw_x, _draw_y + 12, _entry.unit_name, c_white, 80);
+		}
 	}
 }

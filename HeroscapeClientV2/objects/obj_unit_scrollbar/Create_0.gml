@@ -13,7 +13,7 @@ card_spacing = 10;
 spots_h = 5;
 
 scrollbar_width = spots_h * (card_width + card_spacing) + card_spacing;
-scrollbar_height = 575;
+scrollbar_height = 550;
 
 scroll_amount = 0;
 scroll_amount_current = 0;
@@ -23,7 +23,7 @@ scroll_speed = 24;
 mode = MODE_BROWSE;
 
 x = room_width - 600;
-y = room_height - 600;
+y = room_height - 575;
 
 for (var i = 0; i < array_length(global.card_database); i++)
 {

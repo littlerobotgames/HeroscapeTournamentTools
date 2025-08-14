@@ -1,1 +1,480 @@
-[{"id":0,"name":"Army of the Dead","playerId":0,"ArmyEntries":[{"cardId":217,"amount":5},{"cardId":179,"amount":1},{"cardId":33,"amount":1}]},{"id":1,"name":"Howls in the Night","playerId":1,"ArmyEntries":[{"cardId":10,"amount":3},{"cardId":94,"amount":1},{"cardId":147,"amount":1},{"cardId":209,"amount":1}]},{"id":2,"name":"Marro Drones and Stingers","playerId":1,"ArmyEntries":[{"cardId":110,"amount":1},{"cardId":112,"amount":2},{"cardId":115,"amount":2},{"cardId":133,"amount":1},{"cardId":182,"amount":1}]},{"id":3,"name":"Highlander Warriors","playerId":1,"ArmyEntries":[{"cardId":8,"amount":1},{"cardId":61,"amount":1},{"cardId":103,"amount":3},{"cardId":195,"amount":1}]},{"id":4,"name":"Deathbots","playerId":1,"ArmyEntries":[{"cardId":38,"amount":2},{"cardId":39,"amount":2},{"cardId":42,"amount":1},{"cardId":216,"amount":1}]},{"id":5,"name":"Ghosts and Guns","playerId":2,"ArmyEntries":[{"cardId":61,"amount":1},{"cardId":141,"amount":2},{"cardId":147,"amount":2},{"cardId":150,"amount":1}]},{"id":6,"name":"Red Dead","playerId":3,"ArmyEntries":[{"cardId":0,"amount":3},{"cardId":108,"amount":1},{"cardId":158,"amount":3},{"cardId":161,"amount":1}]},{"id":7,"name":"Hail the Lizard King","playerId":3,"ArmyEntries":[{"cardId":70,"amount":4},{"cardId":135,"amount":1},{"cardId":150,"amount":1}]},{"id":8,"name":"Orc Smash","playerId":3,"ArmyEntries":[{"cardId":71,"amount":1},{"cardId":134,"amount":1},{"cardId":76,"amount":4},{"cardId":20,"amount":1}]},{"id":9,"name":"Alex\u0027s Favs","playerId":0,"ArmyEntries":[{"cardId":122,"amount":1},{"cardId":98,"amount":1},{"cardId":151,"amount":1},{"cardId":199,"amount":1}]},{"id":10,"name":"Gauntlet of Valhalla","playerId":8,"ArmyEntries":[{"cardId":33,"amount":1},{"cardId":179,"amount":1},{"cardId":59,"amount":2},{"cardId":87,"amount":1}]},{"id":11,"name":"Gauntlet","playerId":8,"ArmyEntries":[]},{"id":12,"name":"The Avengers","playerId":9,"ArmyEntries":[{"cardId":186,"amount":1},{"cardId":77,"amount":1},{"cardId":165,"amount":1},{"cardId":51,"amount":1},{"cardId":99,"amount":1},{"cardId":60,"amount":1}]},{"id":13,"name":"The Boys","playerId":10,"ArmyEntries":[{"cardId":90,"amount":1},{"cardId":129,"amount":1},{"cardId":172,"amount":1},{"cardId":133,"amount":1}]},{"id":14,"name":"The team","playerId":11,"ArmyEntries":[{"cardId":33,"amount":1},{"cardId":179,"amount":1},{"cardId":93,"amount":1},{"cardId":98,"amount":1},{"cardId":156,"amount":1}]},{"id":15,"name":"The A team","playerId":11,"ArmyEntries":[{"cardId":86,"amount":1},{"cardId":93,"amount":1},{"cardId":98,"amount":1},{"cardId":156,"amount":1},{"cardId":186,"amount":1}]},{"id":16,"name":"Fantastic 4","playerId":11,"ArmyEntries":[{"cardId":93,"amount":1},{"cardId":98,"amount":1},{"cardId":105,"amount":1},{"cardId":156,"amount":1}]},{"id":17,"name":"Hard Hitters","playerId":7,"ArmyEntries":[{"cardId":235,"amount":1},{"cardId":30,"amount":1},{"cardId":104,"amount":1}]},{"id":18,"name":"Cowboys and Kyrie","playerId":2,"ArmyEntries":[{"cardId":86,"amount":1},{"cardId":87,"amount":1},{"cardId":73,"amount":1},{"cardId":35,"amount":1},{"cardId":16,"amount":1},{"cardId":93,"amount":1},{"cardId":186,"amount":1}]},{"id":19,"name":"Nicole\u0027s New Peeps","playerId":12,"ArmyEntries":[{"cardId":230,"amount":1},{"cardId":234,"amount":1},{"cardId":233,"amount":1},{"cardId":228,"amount":1},{"cardId":226,"amount":1}]}]
+[
+	{
+		"armyId": 0,
+		"name": "Army of the Dead",
+		"playerId": 0,
+		"ArmyEntries": [
+			{
+				"cardId": 217,
+				"amount": 5
+			},
+			{
+				"cardId": 179,
+				"amount": 1
+			},
+			{
+				"cardId": 33,
+				"amount": 1
+			}
+		]
+	},
+	{
+		"armyId": 1,
+		"name": "Howls in the Night",
+		"playerId": 1,
+		"ArmyEntries": [
+			{
+				"cardId": 10,
+				"amount": 3
+			},
+			{
+				"cardId": 94,
+				"amount": 1
+			},
+			{
+				"cardId": 147,
+				"amount": 1
+			},
+			{
+				"cardId": 209,
+				"amount": 1
+			}
+		]
+	},
+	{
+		"armyId": 2,
+		"name": "Marro Drones and Stingers",
+		"playerId": 1,
+		"ArmyEntries": [
+			{
+				"cardId": 110,
+				"amount": 1
+			},
+			{
+				"cardId": 112,
+				"amount": 2
+			},
+			{
+				"cardId": 115,
+				"amount": 2
+			},
+			{
+				"cardId": 133,
+				"amount": 1
+			},
+			{
+				"cardId": 182,
+				"amount": 1
+			}
+		]
+	},
+	{
+		"armyId": 3,
+		"name": "Highlander Warriors",
+		"playerId": 1,
+		"ArmyEntries": [
+			{
+				"cardId": 8,
+				"amount": 1
+			},
+			{
+				"cardId": 61,
+				"amount": 1
+			},
+			{
+				"cardId": 103,
+				"amount": 3
+			},
+			{
+				"cardId": 195,
+				"amount": 1
+			}
+		]
+	},
+	{
+		"armyId": 4,
+		"name": "Deathbots",
+		"playerId": 1,
+		"ArmyEntries": [
+			{
+				"cardId": 38,
+				"amount": 2
+			},
+			{
+				"cardId": 39,
+				"amount": 2
+			},
+			{
+				"cardId": 42,
+				"amount": 1
+			},
+			{
+				"cardId": 216,
+				"amount": 1
+			}
+		]
+	},
+	{
+		"armyId": 5,
+		"name": "Ghosts and Guns",
+		"playerId": 2,
+		"ArmyEntries": [
+			{
+				"cardId": 61,
+				"amount": 1
+			},
+			{
+				"cardId": 141,
+				"amount": 2
+			},
+			{
+				"cardId": 147,
+				"amount": 2
+			},
+			{
+				"cardId": 150,
+				"amount": 1
+			}
+		]
+	},
+	{
+		"armyId": 6,
+		"name": "Red Dead",
+		"playerId": 3,
+		"ArmyEntries": [
+			{
+				"cardId": 0,
+				"amount": 3
+			},
+			{
+				"cardId": 108,
+				"amount": 1
+			},
+			{
+				"cardId": 158,
+				"amount": 3
+			},
+			{
+				"cardId": 161,
+				"amount": 1
+			}
+		]
+	},
+	{
+		"armyId": 7,
+		"name": "Hail the Lizard King",
+		"playerId": 3,
+		"ArmyEntries": [
+			{
+				"cardId": 70,
+				"amount": 4
+			},
+			{
+				"cardId": 135,
+				"amount": 1
+			},
+			{
+				"cardId": 150,
+				"amount": 1
+			}
+		]
+	},
+	{
+		"armyId": 8,
+		"name": "Orc Smash",
+		"playerId": 3,
+		"ArmyEntries": [
+			{
+				"cardId": 71,
+				"amount": 1
+			},
+			{
+				"cardId": 134,
+				"amount": 1
+			},
+			{
+				"cardId": 76,
+				"amount": 4
+			},
+			{
+				"cardId": 20,
+				"amount": 1
+			}
+		]
+	},
+	{
+		"armyId": 9,
+		"name": "Alex's Favs",
+		"playerId": 0,
+		"ArmyEntries": [
+			{
+				"cardId": 122,
+				"amount": 1
+			},
+			{
+				"cardId": 98,
+				"amount": 1
+			},
+			{
+				"cardId": 151,
+				"amount": 1
+			},
+			{
+				"cardId": 199,
+				"amount": 1
+			}
+		]
+	},
+	{
+		"armyId": 10,
+		"name": "Gauntlet of Valhalla",
+		"playerId": 8,
+		"ArmyEntries": [
+			{
+				"cardId": 33,
+				"amount": 1
+			},
+			{
+				"cardId": 179,
+				"amount": 1
+			},
+			{
+				"cardId": 59,
+				"amount": 2
+			},
+			{
+				"cardId": 87,
+				"amount": 1
+			}
+		]
+	},
+	{
+		"armyId": 11,
+		"name": "Gauntlet",
+		"playerId": 8,
+		"ArmyEntries": []
+	},
+	{
+		"armyId": 12,
+		"name": "The Avengers",
+		"playerId": 9,
+		"ArmyEntries": [
+			{
+				"cardId": 186,
+				"amount": 1
+			},
+			{
+				"cardId": 77,
+				"amount": 1
+			},
+			{
+				"cardId": 165,
+				"amount": 1
+			},
+			{
+				"cardId": 51,
+				"amount": 1
+			},
+			{
+				"cardId": 99,
+				"amount": 1
+			},
+			{
+				"cardId": 60,
+				"amount": 1
+			}
+		]
+	},
+	{
+		"armyId": 13,
+		"name": "The Boys",
+		"playerId": 10,
+		"ArmyEntries": [
+			{
+				"cardId": 90,
+				"amount": 1
+			},
+			{
+				"cardId": 129,
+				"amount": 1
+			},
+			{
+				"cardId": 172,
+				"amount": 1
+			},
+			{
+				"cardId": 133,
+				"amount": 1
+			}
+		]
+	},
+	{
+		"armyId": 14,
+		"name": "The team",
+		"playerId": 11,
+		"ArmyEntries": [
+			{
+				"cardId": 33,
+				"amount": 1
+			},
+			{
+				"cardId": 179,
+				"amount": 1
+			},
+			{
+				"cardId": 93,
+				"amount": 1
+			},
+			{
+				"cardId": 98,
+				"amount": 1
+			},
+			{
+				"cardId": 156,
+				"amount": 1
+			}
+		]
+	},
+	{
+		"armyId": 15,
+		"name": "The A team",
+		"playerId": 11,
+		"ArmyEntries": [
+			{
+				"cardId": 86,
+				"amount": 1
+			},
+			{
+				"cardId": 93,
+				"amount": 1
+			},
+			{
+				"cardId": 98,
+				"amount": 1
+			},
+			{
+				"cardId": 156,
+				"amount": 1
+			},
+			{
+				"cardId": 186,
+				"amount": 1
+			}
+		]
+	},
+	{
+		"armyId": 16,
+		"name": "Fantastic 4",
+		"playerId": 11,
+		"ArmyEntries": [
+			{
+				"cardId": 93,
+				"amount": 1
+			},
+			{
+				"cardId": 98,
+				"amount": 1
+			},
+			{
+				"cardId": 105,
+				"amount": 1
+			},
+			{
+				"cardId": 156,
+				"amount": 1
+			}
+		]
+	},
+	{
+		"armyId": 17,
+		"name": "Hard Hitters",
+		"playerId": 7,
+		"ArmyEntries": [
+			{
+				"cardId": 235,
+				"amount": 1
+			},
+			{
+				"cardId": 30,
+				"amount": 1
+			},
+			{
+				"cardId": 104,
+				"amount": 1
+			}
+		]
+	},
+	{
+		"armyId": 18,
+		"name": "Cowboys and Kyrie",
+		"playerId": 2,
+		"ArmyEntries": [
+			{
+				"cardId": 86,
+				"amount": 1
+			},
+			{
+				"cardId": 87,
+				"amount": 1
+			},
+			{
+				"cardId": 73,
+				"amount": 1
+			},
+			{
+				"cardId": 35,
+				"amount": 1
+			},
+			{
+				"cardId": 16,
+				"amount": 1
+			},
+			{
+				"cardId": 93,
+				"amount": 1
+			},
+			{
+				"cardId": 186,
+				"amount": 1
+			}
+		]
+	},
+	{
+		"armyId": 19,
+		"name": "Nicole's New Peeps",
+		"playerId": 12,
+		"ArmyEntries": [
+			{
+				"cardId": 230,
+				"amount": 1
+			},
+			{
+				"cardId": 234,
+				"amount": 1
+			},
+			{
+				"cardId": 233,
+				"amount": 1
+			},
+			{
+				"cardId": 228,
+				"amount": 1
+			},
+			{
+				"cardId": 226,
+				"amount": 1
+			}
+		]
+	},
+	{
+		"armyId": 20,
+		"name": "New Army",
+		"playerId": 0,
+		"ArmyEntries": [
+			{
+				"cardId": 0,
+				"amount": 5
+			}
+		]
+	}
+]

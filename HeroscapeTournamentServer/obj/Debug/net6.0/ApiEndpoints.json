@@ -321,7 +321,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Boolean",
+        "Type": "System.Double",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -508,7 +508,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Int32",
+        "Type": "System.Double",
         "MediaTypes": [
           "text/plain",
           "application/json",

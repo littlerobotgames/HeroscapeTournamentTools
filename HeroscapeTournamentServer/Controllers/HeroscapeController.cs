@@ -83,7 +83,7 @@ namespace HeroscapeTournamentServer.Controllers
         public PlayerPublic GetPlayer([FromHeader] int playerId)
         {
             return new PlayerPublic(
-                players.Where(p => p.id == playerId).FirstOrDefault()
+                players.Where(p => p.playerId == playerId).FirstOrDefault()
                 );
         }
         [HttpGet("GetArmies")]
@@ -94,7 +94,7 @@ namespace HeroscapeTournamentServer.Controllers
         [HttpGet("GetArmy")]
         public Army GetArmy([FromHeader] int armyId)
         {
-            return armies.Where(p =>p.id == armyId).FirstOrDefault();
+            return armies.Where(p =>p.armyId == armyId).FirstOrDefault();
         }
         [HttpGet("GetCollections")]
         public IEnumerable<FigureCollection> GetFigureCollection() 
@@ -119,8 +119,6 @@ namespace HeroscapeTournamentServer.Controllers
         [HttpPost("PlayerLogin")]
         public PlayerPublic PlayerLogin([FromBody] Credentials _credentials)
         {
-            Console.WriteLine("Got credentials from client: " + _credentials.ToString());
-
             string _email = _credentials.Email;
             string _password = _credentials.Password;
 
@@ -182,13 +180,13 @@ namespace HeroscapeTournamentServer.Controllers
 
             foreach(Player p in players)
             {
-                if (p.id > highestId)
+                if (p.playerId > highestId)
                 {
-                    highestId = p.id;
+                    highestId = p.playerId;
                 }
             }
 
-            tempP.id = highestId + 1;
+            tempP.playerId = highestId + 1;
 
             players.Add(tempP);
 
@@ -198,26 +196,29 @@ namespace HeroscapeTournamentServer.Controllers
             return true;
         }
         [HttpPost("NewArmy")]
-        public bool NewArmy([FromBody] Army army)
+        public double NewArmy([FromBody] Army army)
         {
-            int newArmyId = 0;
+            Console.WriteLine("Got a new army");
+            double newArmyId = 0;
 
             foreach(Army a in armies)
             {
-                if (a.id > newArmyId)
+                if (a.armyId > newArmyId)
                 {
-                    newArmyId = a.id;
+                    newArmyId = a.armyId;
                 }
             }
 
-            army.id = newArmyId + 1;
+            army.armyId = newArmyId + 1;
+
+            army.PrintArmy();
 
             armies.Add(army);
 
             string text = JsonSerializer.Serialize(armies);
             System.IO.File.WriteAllText(Root + "/gamedata/armies.json", text);
 
-            return true;
+            return army.armyId;
         }
         [HttpPost("NewTournyEntry")]
         public bool NewTournyEntry([FromHeader] int _tournamentId, [FromHeader] int _playerId, [FromHeader] int _armyId)
@@ -227,7 +228,7 @@ namespace HeroscapeTournamentServer.Controllers
             FigureCollection tempReservedList = GetTournamentReserved(_tournamentId);
             FigureCollection tempTotalCollection = GetCombinedCollections();
 
-            Army tempArmy = armies.Where(a => a.id == _armyId).FirstOrDefault();
+            Army tempArmy = armies.Where(a => a.armyId == _armyId).FirstOrDefault();
 
             bool ok = true;
 
@@ -259,48 +260,45 @@ namespace HeroscapeTournamentServer.Controllers
             }
         }
         [HttpPatch("UpdateArmy")]
-        public int UpdateArmy([FromBody] Army army)
+        public double UpdateArmy([FromBody] Army army)
         {
-            if (army.id != -1)
+            if (army.armyId != -1)
             {
-                int armyIndex = armies.FindIndex(a => a.id == army.id);
-                Console.WriteLine($"Updating army [{army.id}]");
+                int armyIndex = armies.FindIndex(a => a.armyId == army.armyId);
+                Console.WriteLine($"Updating army [{army.armyId}]");
                 armies[armyIndex] = army;   
             }
             else
             {
-                int newArmyId = 0;
+                double newArmyId = 0;
 
                 foreach (Army a in armies)
                 {
-                    if (a.id > newArmyId)
+                    if (a.armyId > newArmyId)
                     {
-                        newArmyId = a.id;
+                        newArmyId = a.armyId;
                     }
                 }
-                army.id = newArmyId + 1;
+                army.armyId = newArmyId + 1;
 
-                Console.WriteLine($"Adding new army [{army.id}]");
+                Console.WriteLine($"Adding new army [{army.armyId}]");
                 armies.Add(army);
             }
 
             string text = JsonSerializer.Serialize(armies);
             System.IO.File.WriteAllText(Root + "/gamedata/armies.json", text);
 
-            return army.id;
+            return army.armyId;
 
         }
         [HttpDelete("DeleteArmy")]
         public bool DeleteArmy([FromHeader] int armyId)
         {
-            int armyIndex = armies.FindIndex(a => a.id == armyId);
+            int armyIndex = armies.FindIndex(a => a.armyId == armyId);
 
             if (armyIndex >= 0)
             {
-                armies.RemoveAt(armyIndex);
-
-                string text = JsonSerializer.Serialize(armies);
-                System.IO.File.WriteAllText(Root + "/gamedata/armies.json", text);
+                armies[armyIndex].playerId = -1;
 
                 return true;
             }
@@ -387,8 +385,8 @@ namespace HeroscapeTournamentServer.Controllers
             {
                 foreach(ArmyEntry armyEntry in armies[entry.army].ArmyEntries)
                 {
-                    int entryID = armyEntry.cardId;
-                    int entryAmount = armyEntry.amount;
+                    double entryID = armyEntry.cardId;
+                    double entryAmount = armyEntry.amount;
 
                     ArmyEntry existingEntry = allArmies.ArmyEntries.Where(t => t.cardId == entryID).FirstOrDefault();
 
@@ -406,7 +404,7 @@ namespace HeroscapeTournamentServer.Controllers
             foreach(ArmyEntry armyEntryFinal in allArmies.ArmyEntries)
             {
                 string cardName = cards.Where(c => c.id == armyEntryFinal.cardId).FirstOrDefault().name;
-                int cardAmount = armyEntryFinal.amount;
+                double cardAmount = armyEntryFinal.amount;
 
                 fileText += $"{cardName} x{cardAmount}\n";
             }

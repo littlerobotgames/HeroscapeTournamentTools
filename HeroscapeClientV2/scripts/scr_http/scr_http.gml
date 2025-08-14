@@ -6,6 +6,7 @@ enum request_type
 	database_get_sets,
 	player_login,
 	get_player_armies,
+	army_save,
 }
 
 

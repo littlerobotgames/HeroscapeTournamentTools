@@ -653,17 +653,20 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "type": "boolean"
+                  "type": "number",
+                  "format": "double"
                 }
               },
               "application/json": {
                 "schema": {
-                  "type": "boolean"
+                  "type": "number",
+                  "format": "double"
                 }
               },
               "text/json": {
                 "schema": {
-                  "type": "boolean"
+                  "type": "number",
+                  "format": "double"
                 }
               }
             }
@@ -756,20 +759,20 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "type": "integer",
-                  "format": "int32"
+                  "type": "number",
+                  "format": "double"
                 }
               },
               "application/json": {
                 "schema": {
-                  "type": "integer",
-                  "format": "int32"
+                  "type": "number",
+                  "format": "double"
                 }
               },
               "text/json": {
                 "schema": {
-                  "type": "integer",
-                  "format": "int32"
+                  "type": "number",
+                  "format": "double"
                 }
               }
             }
@@ -865,17 +868,17 @@
       "Army": {
         "type": "object",
         "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32"
+          "armyId": {
+            "type": "number",
+            "format": "double"
           },
           "name": {
             "type": "string",
             "nullable": true
           },
           "playerId": {
-            "type": "integer",
-            "format": "int32"
+            "type": "number",
+            "format": "double"
           },
           "armyEntries": {
             "type": "array",
@@ -891,12 +894,12 @@
         "type": "object",
         "properties": {
           "cardId": {
-            "type": "integer",
-            "format": "int32"
+            "type": "number",
+            "format": "double"
           },
           "amount": {
-            "type": "integer",
-            "format": "int32"
+            "type": "number",
+            "format": "double"
           }
         },
         "additionalProperties": false
@@ -1028,7 +1031,7 @@
       "PlayerPublic": {
         "type": "object",
         "properties": {
-          "id": {
+          "playerId": {
             "type": "integer",
             "format": "int32"
           },

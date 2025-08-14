@@ -1,1 +1,19 @@
-[{"id":0,"coordinatorId":1,"name":"Gauntlet of Valhalla Spring 2025","month":3,"year":2025,"day":29,"time":"5:00 PM","format":3,"points":500,"point_flex":0,"hexes_max":7,"hexes_flex":0,"entries":[{"playerId":0,"army":9,"paid":false},{"playerId":8,"army":10,"paid":false},{"playerId":9,"army":12,"paid":false},{"playerId":10,"army":13,"paid":false},{"playerId":11,"army":16,"paid":false},{"playerId":7,"army":17,"paid":false},{"playerId":2,"army":18,"paid":false},{"playerId":12,"army":19,"paid":false}],"entrants_max":0,"join_code":48475}]
+[
+	{
+		"id": 0,
+		"coordinatorId": 1,
+		"name": "Heroscape Singles Fall 2025",
+		"month": 9,
+		"year": 2025,
+		"day": 29,
+		"time": "5:00 PM",
+		"format": 0,
+		"points": 500,
+		"point_flex": 0,
+		"hexes_max": 24,
+		"hexes_flex": 0,
+		"entries": [],
+		"entrants_max": 0,
+		"join_code": 93957
+	}
+]

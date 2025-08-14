@@ -8,7 +8,7 @@ if mouse_check_button_pressed(mb_left)
 		if !typing
 		{
 			typing = true;
-			keyboard_string = "";
+			keyboard_string = text;
 		}
 	}
 	else

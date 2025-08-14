@@ -29,3 +29,21 @@ textbox_password = noone;
 
 armies_data = array_create(0);
 global.build_army = -1;
+
+function Login()
+{
+	var _login_struct = {
+	email: textbox_username.text,
+	password: textbox_password.text
+	}
+			
+	var _login_string = json_stringify(_login_struct, true);
+			
+	var _request = new Request(SERVER_ADDRESS+"/Heroscape/PlayerLogin", request_type.player_login, "POST", _login_string);
+	_request.AddHeader("Content-Type", "text/json");
+			
+	_request.Send();
+			
+	status = "Logging in...";
+	room_goto(rm_connect);
+}
