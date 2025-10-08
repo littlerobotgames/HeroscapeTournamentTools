@@ -5,6 +5,7 @@
         public int id { get; set; } = 0;
         public int coordinatorId { get; set; }
         public string name { get; set; } = "";
+        public double entry_fee { get; set; } = 0;
         public int month { get; set; }
         public int year { get; set; }
         public int day { get; set; }

@@ -17,7 +17,7 @@ if blinker and typing
 
 if text = "" and !typing
 {
-	draw_text_shadow(x - (_w_half - 10), y, reminder_text, c_ltgray, _w_half - 20);
+	draw_text_shadow(x - (_w_half - 10), y, reminder_text, c_ltgray, width - 20);
 }
 else
 {
@@ -30,10 +30,10 @@ else
 			_hidden +="*";
 		}
 		
-		draw_text_shadow(x - (_w_half - 10), y, _hidden + _blinker, c_white, _w_half - 20);
+		draw_text_shadow(x - (_w_half - 10), y, _hidden + _blinker, c_white, width - 20);
 	}
 	else
 	{
-		draw_text_shadow(x - (_w_half - 10), y, text + _blinker, c_white, _w_half - 20);
+		draw_text_shadow(x - (_w_half - 10), y, text + _blinker, c_white, width - 20);
 	}
 }

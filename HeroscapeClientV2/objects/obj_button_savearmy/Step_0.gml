@@ -26,6 +26,7 @@ if mouse_check_button_pressed(mb_left)
 			armyId: global.build_army.army_id,
 			name: global.build_army.army_name,
 			playerId: global.build_army.playerId,
+			armyLeader: global.build_army.armyLeader,
 			armyEntries: _entries
 		};
 			

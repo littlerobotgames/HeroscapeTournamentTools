@@ -3,6 +3,7 @@
 		"id": 0,
 		"coordinatorId": 1,
 		"name": "Heroscape Singles Fall 2025",
+		"entry_fee": 5,
 		"month": 9,
 		"year": 2025,
 		"day": 29,
@@ -13,7 +14,25 @@
 		"hexes_max": 24,
 		"hexes_flex": 0,
 		"entries": [],
-		"entrants_max": 0,
+		"entrants_max": 24,
 		"join_code": 93957
+	},
+	{
+		"id": 1,
+		"coordinatorId": 1,
+		"name": "Test Tournament",
+		"entry_fee": 0,
+		"month": 1,
+		"year": 2025,
+		"day": 1,
+		"time": "12:00 PM",
+		"format": 0,
+		"points": 500,
+		"point_flex": 0,
+		"hexes_max": 24,
+		"hexes_flex": 0,
+		"entries": [],
+		"entrants_max": 24,
+		"join_code": 11111
 	}
 ]

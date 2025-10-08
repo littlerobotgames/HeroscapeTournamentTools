@@ -18,7 +18,8 @@ if mouse_check_button_pressed(mb_left)
 		armyId: -1,
 		name: "New Army",
 		armyEntries: [],
-		playerId: global.player_data.playerId
+		playerId: global.player_data.playerId,
+		armyLeader: -1
 		}) ;
 		room_goto(my_room);
 	}

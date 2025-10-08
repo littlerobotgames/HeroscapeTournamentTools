@@ -128,6 +128,13 @@ switch (_status)
 						show_debug_message(_result);
 					}
 					break;
+				
+				case request_type.tournaments:
+					if instance_exists(obj_tournaments)
+					{
+						obj_tournaments.tournaments = json_parse(_result);
+					}
+					break;
 			}
 			
 			request_remove(_id);

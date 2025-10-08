@@ -84,6 +84,13 @@ function UnitCard(_unit_data, _width, _height, _grid_x, _grid_y, _spacing, _pare
 				size = lerp(size, 1, 0.2);
 			}
 		}
+		
+		if global.selected_card = card_id
+		{
+			draw_set_color(c_blue);
+			var _border = 3;
+			draw_roundrect(_draw_x - (_w_half + _border), _draw_y - (_h_half + _border), _draw_x + (_w_half + _border), _draw_y + (_h_half + _border), false);
+		}
 
 		draw_sprite_stretched_ext(spr_unit_card, 0, _draw_x - _w_half, _draw_y - _h_half, width * size, height * size, _color, 1);
 		draw_sprite_stretched_ext(spr_unit_card_name, 0, _draw_x - _w_half, _draw_y - _h_half, width * size, height * size, c_black, 1);
@@ -153,9 +160,11 @@ function ArmyCard(_army_data) constructor
 	army_id = _army_data.armyId;
 	army_name = _army_data.name;
 	playerId = _army_data.playerId;
+	armyLeader = _army_data.armyLeader;
 	army_entries = _army_data.armyEntries;
 	army_points = 0;
 	army_hexes = 0;
+	army_color = c_ltgray;
 	
 	size = 1;
 	size_max = 1.05;
@@ -166,6 +175,13 @@ function ArmyCard(_army_data) constructor
 	{
 		army_points = army_total_points(army_entries);
 		army_hexes = army_total_hexes(army_entries);
+		
+		if armyLeader != -1
+		{
+			var _leader = unit_find(armyLeader);
+			
+			army_color = general_get_color(_leader.general);
+		}
 		
 		var _new_entries = array_create(0);
 		
@@ -246,7 +262,7 @@ function ArmyCard(_army_data) constructor
 		}
 		
 		draw_set_color(c_ltgray);
-		draw_sprite_stretched_ext(spr_unit_card, 0, _x - (_w_half * size), _y - (_h_half * size), width * size, height * size, c_ltgray, 1);
+		draw_sprite_stretched_ext(spr_unit_card, 0, _x - (_w_half * size), _y - (_h_half * size), width * size, height * size, army_color, 1);
 		
 		draw_set_font(fnt_med);
 		draw_set_halign(fa_left);
@@ -260,11 +276,25 @@ function ArmyCard(_army_data) constructor
 		
 		draw_set_font(fnt_name);
 		draw_set_halign(fa_left);
+		
+		var _draw_x = 0;
+		var _draw_y = 0;
 		for (var i = 0; i < array_length(army_entries); i++)
 		{
-			var _entry = army_entries[i];
+			if i < 8
+			{
+				var _entry = army_entries[i];
 			
-			draw_text_shadow(_x - (180 * size), _y + (((i * 12) - 5) * size), $"{_entry.unit_name} x{_entry.unit_amount}", c_white, 300);
+				draw_text_shadow(_x + ((-180 + (_draw_x * 175)) * size), _y + (((_draw_y * 12) - 5) * size), $"{_entry.unit_name} x{_entry.unit_amount}", c_white, 300);
+			
+				_draw_y ++;
+			
+				if _draw_y = 4
+				{
+					_draw_x++;
+					_draw_y = 0;
+				}
+			}
 		}
 	}
 }
@@ -275,4 +305,56 @@ function ArmyCardEntry(_unit_data, _unit_amount) constructor
 	unit_name = _unit_data.name;
 	unit_amount = _unit_amount;
 	unit_general = _unit_data.general;
+}
+
+function DropdownOption(_master, _name, _value) constructor
+{
+	master = _master;
+	option_name = _name;
+	option_value = _value;
+	width = 200;
+	height = 20;
+	
+	function Draw(_x, _y)
+	{
+		var _hover = point_in_rectangle(mouse_x, mouse_y, _x, _y, _x + width, _y + height)
+		
+		draw_set_color(c_black);
+		draw_set_font(fnt_small);
+		
+		draw_rectangle(_x, _y, _x + width, _y + height, false);
+		
+		draw_set_halign(fa_left);
+		draw_set_valign(fa_middle);
+		
+		draw_set_color(c_white);
+		
+		if _hover
+		{
+			draw_set_color(c_blue);
+			
+			if mouse_check_button_pressed(mb_left)
+			{
+				master.SetValue(option_value);
+			}
+		}
+		
+		draw_text(_x + 10, _y + (height / 2), _name);
+	}
+}
+
+function DropdownList() constructor
+{
+	width = 250;
+	height = 400;
+	
+	option_list = ds_list_create();
+	
+	function Populate(_data)
+	{
+		for (var i = 0; i < array_length(_data); i++)
+		{
+			ds_list_add(option_list, new DropdownOption(self.id, _data.name, _data.value));
+		}
+	}
 }

@@ -7,6 +7,8 @@ namespace HeroscapeTournamentServer.Classes
         public double armyId { get; set; }
         public string name { get; set; } = "";
         public double playerId { get; set; } = 0;
+
+        public double armyLeader { get; set; }
         public List<ArmyEntry> ArmyEntries { get; set;} = new List<ArmyEntry>();
 
         public void PrintArmy()

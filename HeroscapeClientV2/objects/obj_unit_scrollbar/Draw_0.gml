@@ -94,10 +94,7 @@ if mode = MODE_BUILD
 {
 	if global.build_army != -1
 	{
-		draw_set_font(fnt_med);
 		draw_set_halign(fa_left);
-		
-		draw_text_shadow(40, 70, global.build_army.army_name, c_white, 200);
 		
 		draw_set_font(fnt_small);
 		draw_text_shadow(40, 95, $"Points: {global.build_army.army_points}     Hexes: {global.build_army.army_hexes}", c_white, 300);
@@ -118,6 +115,19 @@ if mode = MODE_BUILD
 			
 			draw_set_font(fnt_name);
 			draw_text_shadow(_draw_x, _draw_y + 12, _entry.unit_name, c_white, 80);
+			
+			if _entry.unit_id = global.build_army.armyLeader
+			{
+				draw_sprite(spr_leader, 0, _draw_x, _draw_y - 40);
+			}
+			
+			if mouse_check_button_pressed(mb_left)
+			{
+				if point_in_rectangle(mouse_x, mouse_y, _draw_x  - 50, _draw_y - 30, _draw_x + 50, _draw_y + 30)
+				{
+					global.build_army.armyLeader = _entry.unit_id;
+				}
+			}
 		}
 	}
 }

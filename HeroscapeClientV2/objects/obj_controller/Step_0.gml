@@ -20,4 +20,7 @@ switch (room)
 			}
 		}
 		break;
+	case rm_build:
+		global.build_army.army_name = textbox_army_name.text;
+		break;
 }

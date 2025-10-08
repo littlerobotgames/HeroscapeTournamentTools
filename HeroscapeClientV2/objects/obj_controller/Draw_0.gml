@@ -31,6 +31,17 @@ switch (room)
 			
 			draw_set_font(fnt_lrg);
 			draw_text_shadow(750, 75, $"{global.player_data.firstname} {global.player_data.lastname}", c_white, 400);
+			
+			draw_set_font(fnt_med);
+			
+			draw_sprite_ext(spr_medal_gold, 0, 700, 120, 1, 1, 0, c_white, 1);
+			draw_text_shadow(700, 150, global.player_data.medals_gold, c_white, 100);
+			
+			draw_sprite_ext(spr_medal_silver, 0, 760, 120, 1, 1, 0, c_white, 1);
+			draw_text_shadow(760, 150, global.player_data.medals_silver, c_white, 100);
+			
+			draw_sprite_ext(spr_medal_bronze, 0, 820, 120, 1, 1, 0, c_white, 1);
+			draw_text_shadow(820, 150, global.player_data.medals_bronze, c_white, 100);
 		}
 		break;
 	

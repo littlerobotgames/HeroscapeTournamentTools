@@ -880,6 +880,10 @@
             "type": "number",
             "format": "double"
           },
+          "armyLeader": {
+            "type": "number",
+            "format": "double"
+          },
           "armyEntries": {
             "type": "array",
             "items": {
@@ -1123,6 +1127,10 @@
           "name": {
             "type": "string",
             "nullable": true
+          },
+          "entry_fee": {
+            "type": "number",
+            "format": "double"
           },
           "month": {
             "type": "integer",

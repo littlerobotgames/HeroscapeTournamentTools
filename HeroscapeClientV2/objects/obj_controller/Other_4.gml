@@ -30,4 +30,10 @@ switch (room)
 		
 		_request.Send();
 		break;
+	
+	case rm_build:
+		textbox_army_name = instance_create_layer(180, 70, "Instances", obj_textbox);
+		
+		textbox_army_name.text = global.build_army.army_name;
+		break;
 }

@@ -7,6 +7,7 @@ enum request_type
 	player_login,
 	get_player_armies,
 	army_save,
+	tournaments,
 }
 
 

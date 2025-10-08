@@ -27,6 +27,8 @@ anim_frame = 0;
 textbox_username = noone;
 textbox_password = noone;
 
+textbox_army_name = noone;
+
 armies_data = array_create(0);
 global.build_army = -1;
 
