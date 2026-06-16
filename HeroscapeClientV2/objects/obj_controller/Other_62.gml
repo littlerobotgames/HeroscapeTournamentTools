@@ -41,13 +41,7 @@ switch (_status)
 					}
 					else
 					{
-						var _file = file_text_open_read("card_database.json");
-	
-						var _data = file_text_read_string(_file);
-	
-						file_text_close(_file);
-	
-						global.card_database = json_parse(_data);
+						database_cards_load();
 						
 						room_goto(rm_login);
 					}
@@ -65,6 +59,8 @@ switch (_status)
 					file_text_write_string(_file, _result);
 					
 					file_text_close(_file);
+					
+					database_cards_load();
 					
 					room_goto(rm_login);
 					break;

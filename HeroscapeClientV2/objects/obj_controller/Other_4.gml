@@ -15,6 +15,7 @@ switch (room)
 		{
 			other.textbox_username = self;
 			reminder_text = "email";
+			text = global.saved_email;
 		}
 		with(instance_create_layer(room_width / 2, 300, "Instances", obj_textbox))
 		{

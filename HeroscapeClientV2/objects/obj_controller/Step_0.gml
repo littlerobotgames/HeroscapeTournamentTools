@@ -6,6 +6,7 @@ switch (room)
 	case rm_login:
 		if keyboard_check_pressed(vk_enter)
 		{
+			global.saved_email = textbox_username.text;
 			Login();
 		}
 		

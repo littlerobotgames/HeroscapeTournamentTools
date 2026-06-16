@@ -2,7 +2,7 @@
   "$GMProject":"v1",
   "%Name":"HeroscapeClientV2",
   "AudioGroups":[
-    {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
   "configs":{
     "children":[],
@@ -31,7 +31,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.1.193",
+    "IDEVersion":"2024.14.0.207",
   },
   "name":"HeroscapeClientV2",
   "resources":[
@@ -56,6 +56,7 @@
     {"id":{"name":"rm_connect","path":"rooms/rm_connect/rm_connect.yy",},},
     {"id":{"name":"rm_login","path":"rooms/rm_login/rm_login.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
+    {"id":{"name":"scr_files","path":"scripts/scr_files/scr_files.yy",},},
     {"id":{"name":"scr_gui","path":"scripts/scr_gui/scr_gui.yy",},},
     {"id":{"name":"scr_http","path":"scripts/scr_http/scr_http.yy",},},
     {"id":{"name":"scr_unit_data","path":"scripts/scr_unit_data/scr_unit_data.yy",},},

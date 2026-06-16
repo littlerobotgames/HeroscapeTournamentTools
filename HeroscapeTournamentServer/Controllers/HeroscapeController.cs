@@ -18,7 +18,7 @@ namespace HeroscapeTournamentServer.Controllers
         public List<Tournament> tournaments = new List<Tournament>();
         public List<Player> players = new List<Player>();
         public List<Army> armies = new List<Army>();
-        public string DatabaseVersion = "1.0.1";
+        public string DatabaseVersion = "1.1";
 
         public List<FigureCollection> collections = new List<FigureCollection>();
         public string[] Generals = { "Jandar", "Ullar", "Einar", "Vydar", "Utgar", "Aquilla", "Valkrill", "Marvel", "Revna" };

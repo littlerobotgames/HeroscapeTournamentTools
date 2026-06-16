@@ -8,6 +8,12 @@ global.selected_card = -1;
 
 global.player_data = -1;
 
+global.database_version = 0;
+global.database_patch = 0;
+global.saved_email = "";
+
+file_locals_load();
+
 
 global.general_data = ds_list_create();
 ds_list_add(global.general_data, new GeneralData("Jandar",   make_color_rgb(172, 226, 247), c_white));
