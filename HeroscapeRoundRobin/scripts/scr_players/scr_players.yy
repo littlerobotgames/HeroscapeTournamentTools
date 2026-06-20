@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_players",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_players",
+  "parent":{
+    "name":"HeroscapeRoundRobin",
+    "path":"HeroscapeRoundRobin.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
