@@ -5,9 +5,9 @@ randomize();
 ds_list_add(global.players, new Team("Forged in Flame", "Alex and Nicole"));
 ds_list_add(global.players, new Team("Blood and Bones", "Zach and Connor"));
 ds_list_add(global.players, new Team("Biblically Accurate Angels", "Ethan and Hannah"));
-ds_list_add(global.players, new Team("Batallion of United Time Traveling Soldiers", "Matt and Megan"));
-ds_list_add(global.players, new Team("", "Jake and Chris"));
-ds_list_add(global.players, new Team("", "Dylan and Tyler"));
+ds_list_add(global.players, new Team("B.U.T.T.S.", "Matt and Megan"));
+ds_list_add(global.players, new Team("Valiant Vikings", "Jake and Chris"));
+ds_list_add(global.players, new Team("The Gongs", "Dylan and Tyler"));
 
 round_current = 0;
 round_max = 3
@@ -26,7 +26,7 @@ function NewRound()
 	}
 	
 	with(obj_map)
-	{
+	{	
 		ds_list_add(_maps, id);
 		team_one = -1;
 		team_two = -1;
@@ -64,7 +64,6 @@ function NewRound()
 			}
 			
 			team_one = _main_index;
-			ds_list_add(global.players[|team_one].maps_played, id);
 			
 			ds_list_delete(_players_to_place, _random_team_index);
 			
@@ -92,10 +91,6 @@ function NewRound()
 			}
 			
 			team_two = _main_index;
-			ds_list_add(global.players[|team_two].maps_played, id);
-				
-			ds_list_add(global.players[|team_one].players_faced, team_two);
-			ds_list_add(global.players[|team_two].players_faced, team_one);
 			
 			ds_list_delete(_players_to_place, _random_team_index);
 		}
